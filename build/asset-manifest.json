@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b15e9006.chunk.css",
+    "main.js": "/static/js/main.e5c0920e.chunk.js",
+    "main.js.map": "/static/js/main.e5c0920e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.410087f7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.410087f7.js.map",
+    "static/css/2.f00aa346.chunk.css": "/static/css/2.f00aa346.chunk.css",
+    "static/js/2.9d0f344d.chunk.js": "/static/js/2.9d0f344d.chunk.js",
+    "static/js/2.9d0f344d.chunk.js.map": "/static/js/2.9d0f344d.chunk.js.map",
+    "static/js/3.bc669d57.chunk.js": "/static/js/3.bc669d57.chunk.js",
+    "static/js/3.bc669d57.chunk.js.map": "/static/js/3.bc669d57.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.f00aa346.chunk.css.map": "/static/css/2.f00aa346.chunk.css.map",
+    "static/css/main.b15e9006.chunk.css.map": "/static/css/main.b15e9006.chunk.css.map",
+    "static/js/2.9d0f344d.chunk.js.LICENSE.txt": "/static/js/2.9d0f344d.chunk.js.LICENSE.txt",
+    "static/media/aboutus3.e69db9f1.jpg": "/static/media/aboutus3.e69db9f1.jpg",
+    "static/media/flag-icon.css": "/static/media/zw.f5ceeff7.svg",
+    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg",
+    "static/media/loveUsm.9ba903d1.png": "/static/media/loveUsm.9ba903d1.png",
+    "static/media/usm2.08c20638.jfif": "/static/media/usm2.08c20638.jfif",
+    "static/media/usmLogo.19642fb7.png": "/static/media/usmLogo.19642fb7.png",
+    "static/media/usmMain.dac71d1c.jpg": "/static/media/usmMain.dac71d1c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.410087f7.js",
+    "static/css/2.f00aa346.chunk.css",
+    "static/js/2.9d0f344d.chunk.js",
+    "static/css/main.b15e9006.chunk.css",
+    "static/js/main.e5c0920e.chunk.js"
+  ]
+}
