@@ -1,0 +1,39 @@
+@media (min-width: 700px) {
+  .teamCard {
+    width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-deck {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2vh;
+    width: fit-content;
+  }
+}
+
+.card-title{
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.card-body{
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.teamImg{
+
+}
+
+.teamImgContainer{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  overflow: hidden;
+  margin-right: auto;
+  margin-left: auto;
+}

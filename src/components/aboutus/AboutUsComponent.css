@@ -1,0 +1,48 @@
+.aboutus{
+  width: 100%;
+  display: inline-block;
+}
+
+.aboutus h1{
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.aboutUsImg{
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: red;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  box-shadow: rgba(0,0,0,0.8) -3px 3px;
+
+  object-fit: cover;
+}
+
+
+
+.aboutUsContent{
+    font-size: 1.5em;
+}
+
+@media (min-width: 768px){
+  .aboutUsImg{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 40%;
+  }
+
+  .aboutUsImg:first-child{
+    margin-top: 50px;
+    margin-left: 60%;
+  }
+
+  .aboutUsImg:last-child{
+    margin-left: 60%;
+  }
+}

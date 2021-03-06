@@ -1,10 +1,24 @@
 .App {
   text-align: center;
+  width: 100%;
+  position: relative;
+  min-height: 100vh !important;
+  display: block;
+}
+
+.content{
+  background-color: white;
+  min-height: 100% !important;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.horizontalCenter{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +49,50 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+}
+
+@media (min-width: 768px){
+  .w-md-50{
+    width: 50% !important;
+  }
+  .w-md-75{
+    width: 75% !important;
+  }
+  .w-md-25{
+    width: 25% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .w-smd-50{
+    width: 50% !important;
+  }
+  .w-smd-75{
+    width: 75% !important;
+  }
+  .w-smd-25{
+    width: 25% !important;
+  }
+
+  .w-smd-100{
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .float-smd-left{
+    float: left !important;
+  }
+}
+
+.w-fit-content{
+  width: fit-content;
 }

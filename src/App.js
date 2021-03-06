@@ -1,24 +1,66 @@
 import logo from './logo.svg';
 import './App.css';
+import './lux.css';
+import * as React from "react";
+import {HashRouter as Router, Route, Switch} from 'react-router-dom';
+import HeaderComponent from "./components/header/HeaderComponent";
+import HomeView from "./components/views/home/HomeView";
+import {useState} from "react";
+import iContent from "./contrib/content";
+import FooterComponent from "./components/footer/FooterComponent";
+import VolunteerView from "./components/views/volunteer/VolunteerView";
+import TeamView from "./components/views/team/TeamView";
+import ChatView from "./components/views/chat/ChatView";
+
+export const LanguageContext = React.createContext({
+  language: 'my',
+  content: iContent.my,
+});
 
 function App() {
+  const [routes, setRoutes] = useState([
+    {component: HomeView, path: '/', exact: true},
+    {component: VolunteerView, path: '/volunteer', exact: true},
+    {component: ChatView, path: '/help', exact: true},
+    {component: TeamView, path: '/team', exact: true},
+    {component: HomeView, path: '/*', exact: true},
+  ]);
+  const [languageContext, setLanguageContext] = React.useState({
+    language: 'my',
+    content: iContent.my,
+  });
+
+  const updateLanguage = () => {
+    if (languageContext.language === 'en') {
+      setLanguageContext({language: 'my', content: iContent.my});
+    } else {
+      setLanguageContext({language: 'en', content: iContent.en});
+    }
+
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div>
+
+        <LanguageContext.Provider value={languageContext}>
+          <div className="App">
+          <HeaderComponent updateLanguage={updateLanguage}/>
+          <Router>
+            <div className="content">
+              <Switch>
+                //...route == route.component = component,
+                route.path = path,
+                route.exact= exact
+                {routes.map(
+                    (route, i) => (
+                        <Route key={i} {...route}/>))}
+              </Switch>
+            </div>
+          </Router>
+          </div>
+          <FooterComponent/>
+        </LanguageContext.Provider>
+      </div>
   );
 }
 

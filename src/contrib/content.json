@@ -1,0 +1,36 @@
+{
+  "my": {
+    "header": {
+      "home": "Home",
+      "helped": "Dapatkan Bantuan!",
+      "support": "Sokong kami!",
+      "team": "Pasukan"
+    },
+    "home": {
+      "imsg": "Instant Messanger",
+      "aboutUs": "Tentang kita",
+      "info": "<div>\nTalian hotline dibuka Mo-Fr<br/>Dari jam 8 malam hingga tengah malam<br/><br/><h4>Hubungi kami: XXXX 1234511</h4></div>"
+    },
+    "team": {
+      "meetTheTeam": "JUMPA PASUKAN",
+      "joinus": "Sertai kami!"
+    }
+  },
+  "en": {
+    "header": {
+      "home": "Home",
+      "helped": "GET HELPED!",
+      "support": "SUPPORT US!",
+      "team": "Team"
+    },
+    "home": {
+      "imsg": "Instant Messanger",
+      "aboutUs": "About us",
+      "info": "<div>Hotline is open Mo-Fr<br/>From 8PM till Midnight<br/><br/><h4>Call us: XXXX 1234511</h4></div>"
+    },
+    "team": {
+      "meetTheTeam": "Meet the Team",
+      "joinus": "Join us!"
+    }
+  }
+}

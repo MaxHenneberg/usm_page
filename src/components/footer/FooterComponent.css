@@ -1,0 +1,63 @@
+.footer{
+  height: fit-content;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.footer h3{
+  color: white !important;
+}
+.usmLogo{
+  max-height: 10vh !important;
+  height: 10vh;
+}
+
+.myLink{
+  color: white;
+}
+
+.myLink:hover{
+  color: lightgrey;
+}
+
+
+.fa{
+  padding: 10px;
+  font-size: 30px !important;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.fa:last-child{
+  margin-right: 0px !important;
+}
+
+.fa-facebook{
+  cursor: pointer;
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  cursor: pointer;
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  cursor: pointer;
+  background: #125688;
+  color: white;
+}
+
+.footerItem{
+  width: 33%;
+}
+
+
