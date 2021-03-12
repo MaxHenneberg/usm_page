@@ -28,3 +28,13 @@ Z
 *src/components/aboutus/AboutUsComponent.js,8\0\809e1b8cda2c7f8acec21489ee9a5bdf0c10bca9
 [
 +src/components/aboutus/AboutUsComponent.css,1\3\1343a1c78b37bf00e18b5c560a40072545e9af90
+U
+%src/components/views/home/HomeView.js,5\e\5e6c72ca05b43e60baad752c5ba6082274808feb
+[
++src/components/aboutus/contrib/aboutus.json,5\f\5f8e4a66cd0eed3438f51b5ffd5d38ea092f8d3c
+U
+%src/components/views/chat/ChatView.js,1\2\12fc95335ccd5ec6c87fbfecd68d30285b73e1fe
+U
+%src/components/views/team/TeamView.js,d\f\dfa995604ed026e2a426bcc42ffe4c30add531e0
+[
++src/components/views/team/contrib/team.json,2\1\211013024b3436f096503a2e5548225cc948ab51
