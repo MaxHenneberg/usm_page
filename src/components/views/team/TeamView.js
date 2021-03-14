@@ -40,7 +40,7 @@ function TeamView(props) {
                 <CardDeck>
                   {teamList.map((member, i) => {
                     return (
-                        <OverlayTrigger trigger="hover" placement="right" overlay={
+                        <OverlayTrigger trigger="hover" placement="bottom" overlay={
                           <Popover id={i}>
                             <Popover.Title as="h3">{member.name}</Popover.Title>
                             <Popover.Content>
