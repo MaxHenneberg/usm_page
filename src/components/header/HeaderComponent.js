@@ -14,24 +14,25 @@ function HeaderComponent(props) {
   const languageContext = useContext(LanguageContext);
   return (
       <div>
-              <Navbar bg={"light"}>
+              <Navbar bg={"light"} expand="md" fixed="top">
                 <NavbarToggle aria-controls="basic-navbar-nav"/>
                 <NavbarCollapse id="basic-navbar-nav" className="justify-content-end">
                   <NavLink href='#/'>{languageContext.content.header.home}</NavLink>
+                  <NavLink href="/#faq">FAQ</NavLink>
                   <NavLink href="#/help">{languageContext.content.header.helped}</NavLink>
                   <NavDropdown title={languageContext.content.header.support} id="basic-nav-dropdown">
                     <NavDropdown.Item href='#/volunteer'>Become a Volunteer!</NavDropdown.Item>
                     <NavDropdown.Item href="#action/3.2">Donate!</NavDropdown.Item>
                   </NavDropdown>
                   <NavLink href='#/team'>{languageContext.content.header.team}</NavLink>
+                  <Form inline>
+                    <div className="horizontalCenter">
+                      <i className="flag-icon-my flag-icon float-left vertical-center"/>
+                      <FormCheck type="switch" id="custom-switch" className="float-left" onChange={() =>{props.updateLanguage()}} checked={languageContext.language !== 'my'}/>
+                      <i className="flag-icon-gb-eng flag-icon float-left vertical-center"/>
+                    </div>
+                  </Form>
                 </NavbarCollapse>
-                <Form inline>
-                  <div>
-                    <i className="flag-icon-my flag-icon float-left vertical-center"/>
-                    <FormCheck type="switch" id="custom-switch" className="float-left" onChange={() =>{props.updateLanguage()}} checked={languageContext.language !== 'my'}/>
-                    <i className="flag-icon-gb-eng flag-icon float-left vertical-center"/>
-                  </div>
-                </Form>
               </Navbar>
       </div>
   )

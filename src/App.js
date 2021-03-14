@@ -26,8 +26,8 @@ function App() {
     {component: HomeView, path: '/*', exact: true},
   ]);
   const [languageContext, setLanguageContext] = React.useState({
-    language: 'my',
-    content: iContent.my,
+    language: 'en',
+    content: iContent.en
   });
 
   const updateLanguage = () => {
@@ -46,7 +46,7 @@ function App() {
           <div className="App">
           <HeaderComponent updateLanguage={updateLanguage}/>
           <Router>
-            <div className="content">
+            <div className="content" >
               <Switch>
                 //...route == route.component = component,
                 route.path = path,

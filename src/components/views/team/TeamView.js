@@ -25,9 +25,9 @@ function getStyleObjectFromString(str) {
 
 function TeamView(props) {
   const languageContext = useContext(LanguageContext);
-  let team = teamJson.my;
-  if(languageContext.language === 'en'){
-    team = teamJson.en;
+  let team = teamJson.en;
+  if(languageContext.language === 'my'){
+    team = teamJson.my;
   }
   return (
       <div>

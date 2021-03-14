@@ -7,8 +7,13 @@
 }
 
 .content{
+  display: inline-block;
+
+  width: 100%;
   background-color: white;
   min-height: 100% !important;
+
+  padding-top: 100px;
 }
 
 .App-logo {
@@ -19,6 +24,8 @@
 .horizontalCenter{
   margin-left: auto;
   margin-right: auto;
+
+  width: fit-content;
 }
 
 @media (prefers-reduced-motion: no-preference) {

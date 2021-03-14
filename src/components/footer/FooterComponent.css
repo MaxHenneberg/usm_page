@@ -1,6 +1,5 @@
 .footer{
   height: fit-content;
-  position: sticky;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -57,7 +56,13 @@
 }
 
 .footerItem{
-  width: 33%;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .footerItem{
+    width: 33%;
+  }
 }
 
 

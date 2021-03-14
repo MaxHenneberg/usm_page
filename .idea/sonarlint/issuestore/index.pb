@@ -38,3 +38,9 @@ U
 %src/components/views/team/TeamView.js,d\f\dfa995604ed026e2a426bcc42ffe4c30add531e0
 [
 +src/components/views/team/contrib/team.json,2\1\211013024b3436f096503a2e5548225cc948ab51
+S
+#src/components/faq/contrib/faq.json,5\6\5604a8f2d3e064c771416505774f1e93c17df263
+R
+"src/components/faq/FAQComponent.js,1\1\11518035481f411764e3ab67f5f2ccbdb887807e
+S
+#src/components/faq/FAQComponent.css,2\1\214e532995c5583af7c0e8b10e922b03a28ff2c7

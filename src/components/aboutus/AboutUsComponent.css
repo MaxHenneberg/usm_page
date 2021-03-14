@@ -1,6 +1,8 @@
 .aboutus{
   width: 100%;
   display: inline-block;
+
+  border-bottom: solid black 5px;
 }
 
 .aboutus h1{
@@ -12,12 +14,12 @@
 }
 
 .aboutUsImg{
-  width: 4rem;
-  height: 4rem;
+  width: 5rem;
+  height: 5rem;
   border-radius: 50%;
   background-color: red;
   margin-bottom: 20px;
-  margin-left: 10%;
+  margin-left: 20px;
   box-shadow: rgba(0,0,0,0.8) -3px 3px;
 
   object-fit: cover;
