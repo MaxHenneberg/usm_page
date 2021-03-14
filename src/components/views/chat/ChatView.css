@@ -1,17 +1,1 @@
-.custom-switch{
-  margin-left: 10px !important;
-  margin-right: 10px !important;
-}
 
-.form-inline{
-  height: inherit !important;
-  border-style: inset;
-  border-width: 1px;
-  border-color: darkgray;
-  padding: 5px;
-  background-color: lightgrey;
-}
-
-.nav-item{
-  margin-right: 0 !important;
-}
