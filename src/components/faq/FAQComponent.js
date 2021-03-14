@@ -4,7 +4,7 @@ import "./FAQComponent.css"
 import {LanguageContext} from "../../App";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
-import faqJson from "./contrib/faq.json";
+import faqJson from "../../contrib/content/faq.json";
 
 function FAQComponent(props) {
   const languageContext = useContext(LanguageContext);

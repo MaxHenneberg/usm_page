@@ -6,7 +6,7 @@ import {HashRouter as Router, Route, Switch} from 'react-router-dom';
 import HeaderComponent from "./components/header/HeaderComponent";
 import HomeView from "./components/views/home/HomeView";
 import {useState} from "react";
-import iContent from "./contrib/content";
+import iContent from "./contrib/content/content";
 import FooterComponent from "./components/footer/FooterComponent";
 import VolunteerView from "./components/views/volunteer/VolunteerView";
 import TeamView from "./components/views/team/TeamView";

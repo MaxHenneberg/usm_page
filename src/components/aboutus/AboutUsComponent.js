@@ -5,7 +5,7 @@ import "./AboutUsComponent.css"
 import aboutus1 from "./contrib/loveUsm.png";
 import aboutus2 from "./contrib/usm2.jfif";
 import aboutus3 from "./contrib/aboutus3.jpg";
-import aboutUsJson from "./contrib/aboutus.json";
+import aboutUsJson from "../../contrib/content/aboutus.json";
 
 function AboutUsComponent(props) {
   const languageContext = useContext(LanguageContext);

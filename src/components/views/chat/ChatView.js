@@ -3,7 +3,7 @@ import "flag-icon-css/css/flag-icon.css"
 import "./ChatView.css"
 import Modal from 'react-bootstrap/Modal'
 import Button from "react-bootstrap/Button";
-import chatJson from "./contrib/chat"
+import chatJson from "../../../contrib/content/chat"
 import {LanguageContext} from "../../../App";
 
 function ChatView(props) {

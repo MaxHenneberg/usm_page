@@ -1,6 +1,6 @@
 import React, {useContext} from "react";
 import {LanguageContext} from "../../../App";
-import teamJson from "./contrib/team";
+import teamJson from "../../../contrib/content/team";
 import CardDeck from "react-bootstrap/CardDeck"
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
