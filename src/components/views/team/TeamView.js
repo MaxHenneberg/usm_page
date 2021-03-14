@@ -30,7 +30,7 @@ function TeamView(props) {
     team = teamJson.my;
   }
   return (
-      <div>
+      <div id="team">
         <br/>
         <h1>{languageContext.content.team.meetTheTeam}</h1>
         <br/>
@@ -50,7 +50,7 @@ function TeamView(props) {
                           <Card className="teamCard">
                             <Card.Header>
                               <div className="teamImgContainer">
-                                <img src={member.img} style={getStyleObjectFromString(member.style)} width='100px' height='100px'/>
+                                <img src={process.env.PUBLIC_URL+member.img} style={getStyleObjectFromString(member.style)} width='100px' height='100px'/>
                               </div>
                             </Card.Header>
                             <Card.Body>

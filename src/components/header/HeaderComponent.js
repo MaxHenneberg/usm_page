@@ -25,10 +25,10 @@ function HeaderComponent(props) {
                     <NavLink href="/#faq">FAQ</NavLink>
                     <NavLink href="#/help">{languageContext.content.header.helped}</NavLink>
                     <NavDropdown title={languageContext.content.header.support} id="basic-nav-dropdown">
-                      <NavDropdown.Item href='#/volunteer'>Become a Volunteer!</NavDropdown.Item>
+                      <NavDropdown.Item href='#/volunteer' target="_blank">Become a Volunteer!</NavDropdown.Item>
                       <NavDropdown.Item href="#action/3.2">Donate!</NavDropdown.Item>
                     </NavDropdown>
-                    <NavLink href='#/team'>{languageContext.content.header.team}</NavLink>
+                    <NavLink href='/#team'>{languageContext.content.header.team}</NavLink>
                   </Nav>
                   <div className="horizontalCenter-sm">
                     <Form inline>
