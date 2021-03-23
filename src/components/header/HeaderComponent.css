@@ -11,6 +11,13 @@
   min-width: 0 !important;
 }
 
+.nav-link{
+  color: black !important;
+}
+
+.nav-link:hover{
+  background-color: lightgrey;
+}
 
 .nav-item{
   margin-right: 0 !important;

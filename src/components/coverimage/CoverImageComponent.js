@@ -1,7 +1,7 @@
 import React, {useContext} from "react";
 import {LanguageContext} from "../../App";
 import Image from "react-bootstrap/Image";
-import usmMain from "../../contrib/usmMain.jpg";
+import usmMain from "../../contrib/usmMain.png";
 import Button from "react-bootstrap/Button";
 import "./CoverImageComponent.css";
 import {Link} from "react-router-dom";

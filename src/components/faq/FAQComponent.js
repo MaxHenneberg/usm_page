@@ -5,6 +5,11 @@ import {LanguageContext} from "../../App";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import faqJson from "../../contrib/content/faq.json";
+import {useAccordionToggle} from "react-bootstrap";
+import iContent from "../../contrib/content/content";
+import FAQSection from "./FAQSection";
+
+
 
 function FAQComponent(props) {
   const languageContext = useContext(LanguageContext);
@@ -14,23 +19,23 @@ function FAQComponent(props) {
   }
   return (
       <div className="mt-5 mb-3" id="faq">
-        <h1>FAQ</h1>
-        <Accordion>
-          {faq.questions.map((question, index) => {
-            return (
-                <Card>
-                  <Card.Header>
-                    <Accordion.Toggle as={Card.Header} eventKey={index.toString()}>
-                      {question.questionText}
-                    </Accordion.Toggle>
-                  </Card.Header>
-                  <Accordion.Collapse eventKey={index.toString()}>
-                    <Card.Body>{question.answerText}</Card.Body>
-                  </Accordion.Collapse>
-                </Card>)
-          })}
-        </Accordion>
-
+        <h1>Frequently Ask Questions</h1>
+        <div className="horizontalCenter">
+          <div className="questionSection">
+            <div className="mt-5">
+            <h2>General Questions</h2>
+            <FAQSection questions={faq.questions.general}/>
+            </div>
+            <div className="mt-5">
+              <h2>For Receivers</h2>
+              <FAQSection questions={faq.questions.receiver}/>
+            </div>
+            <div className="mt-5">
+              <h2>For Volunteers</h2>
+              <FAQSection questions={faq.questions.volunteer}/>
+            </div>
+          </div>
+        </div>
       </div>
   )
 }

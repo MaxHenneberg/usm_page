@@ -1,3 +1,37 @@
+h1{
+  font-family: 'GlacialIndifferenceRegular', sans-serif;
+  letter-spacing: 0.3em;
+}
 
+h2{
+  font-family: 'GlacialIndifferenceRegular', sans-serif;
+}
 
+.questionSection{
+  width: 75vw;
+}
+
+.card{
+  border: none !important;
+  border-radius: 5px;
+  min-height: 5vh;
+}
+
+.card-header{
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+}
+
+.card-body{
+  font-family: 'GlacialIndifferenceRegular', sans-serif;
+}
+
+.selectedCard{
+  background-color: rgba(127, 255, 212, 0.1) !important;
+}
+
+.notSelectedCard{
+  background-color: white !important;
+}
 
