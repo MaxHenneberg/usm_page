@@ -14,7 +14,7 @@ h2{
 .card{
   border: none !important;
   border-radius: 5px;
-  min-height: 5vh;
+  min-height: 7vh;
 }
 
 .card-header{

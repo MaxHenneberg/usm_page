@@ -1,10 +1,11 @@
 {
   "my": {
     "header": {
-      "home": "Home",
-      "helped": "Dapatkan Bantuan!",
+      "home": "Linehayat",
+      "helped": "Reach us",
       "support": "Sokong kami!",
-      "team": "Pasukan"
+      "team": "Pasukan",
+      "whoWeAre": "Who we are"
     },
     "home": {
       "imsg": "Instant Messanger",
@@ -18,10 +19,11 @@
   },
   "en": {
     "header": {
-      "home": "Home",
-      "helped": "GET HELPED!",
+      "home": "Linehayat",
+      "helped": "Reach us",
       "support": "SUPPORT US!",
-      "team": "Team"
+      "team": "Team",
+      "whoWeAre": "Who we are"
     },
     "home": {
       "imsg": "Instant Messanger",

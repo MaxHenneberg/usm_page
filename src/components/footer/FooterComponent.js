@@ -18,9 +18,9 @@ function FooterComponent(props) {
           <div className="horizontalCenter w-fit-content">
             <h3 className="w-fit-content horizontalCenter">Follow Us</h3>
             <div>
-              <i className="fa fa-facebook socialMediaIcon"/>
-              <i className="fa fa-twitter socialMediaIcon"/>
-              <i className="fa fa-instagram socialMediaIcon"/>
+              <i className="fa fa-facebook fa-facebook-footer socialMediaIcon"/>
+              <i className="fa fa-twitter fa-twitter-footer socialMediaIcon"/>
+              <i className="fa fa-instagram fa-instagram-footer socialMediaIcon"/>
             </div>
           </div>
         </div>

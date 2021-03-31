@@ -39,17 +39,17 @@
   margin-right: 0px !important;
 }
 
-.fa-facebook{
+.fa-facebook-footer{
   cursor: pointer;
   background: #3B5998;
   color: white;
 }
-.fa-twitter {
+.fa-twitter-footer {
   cursor: pointer;
   background: #55ACEE;
   color: white;
 }
-.fa-instagram {
+.fa-instagram-footer {
   cursor: pointer;
   background: #125688;
   color: white;

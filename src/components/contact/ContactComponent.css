@@ -1,0 +1,13 @@
+.socialsIcon{
+    font-size: 2rem;
+    color: black;
+    margin-right: 2vw;
+}
+
+.socialsIcon:not(first-child){
+    margin-top: 1vh;
+}
+
+.socialsText{
+    text-align: left;
+}

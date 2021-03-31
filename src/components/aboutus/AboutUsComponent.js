@@ -14,7 +14,7 @@ function AboutUsComponent(props) {
     aboutUs = aboutUsJson.my;
   }
   return (
-      <div className="aboutus">
+      <div className="aboutus" id="aboutus">
         <h1>{aboutUs.title}</h1>
         <a name='aboutus'/>
         <div className="d-md-flex align-items-md-center justify-content-md-center">
