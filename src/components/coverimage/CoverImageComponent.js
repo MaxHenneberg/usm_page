@@ -10,7 +10,7 @@ function CoverImageComponent(props) {
   const languageContext = useContext(LanguageContext);
   return (
       <div className="mainImage">
-        <Image src={usmMain} width="100%" height="100%"/>
+        <Image src={usmMain} width="100%" height="100%" className="bgImage"/>
         <div className="hoverContent">
           <div dangerouslySetInnerHTML={{__html:languageContext.content.home.info}} className="infoContainer">
           </div>

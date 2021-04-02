@@ -10,7 +10,7 @@
     "home": {
       "imsg": "Instant Messanger",
       "aboutUs": "Tentang kita",
-      "info": "<div>\nTalian hotline dibuka Mo-Fr<br/>Dari jam 8 malam hingga tengah malam<br/><br/><h4>Hubungi kami: XXXX 1234511</h4></div>"
+      "info": "<div>\nTalian hotline dibuka Mo-Fr<br/>Dari jam 8 malam hingga tengah malam<br/><br/>Hubungi kami: XXXX 1234511</div>"
     },
     "team": {
       "meetTheTeam": "JUMPA PASUKAN",
@@ -26,9 +26,9 @@
       "whoWeAre": "Who we are"
     },
     "home": {
-      "imsg": "Instant Messanger",
+      "imsg": "Live Chat",
       "aboutUs": "About us",
-      "info": "<div>Hotline is open Mo-Fr<br/>From 8PM till Midnight<br/><br/><h4>Call us: XXXX 1234511</h4></div>"
+      "info": "<div>Welcome to LineHayat we are here to listen to you <br/>Hotline is open:<br/><span style='color:white'> Monday - Friday From 8PM - 2 AM</span><br/><br/>Call us: XXXX 1234511</div>"
     },
     "team": {
       "meetTheTeam": "Meet the Team",
