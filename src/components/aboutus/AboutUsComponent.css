@@ -24,3 +24,17 @@
   margin-right: 5vw;
   margin-left: 5vw;
 }
+
+.aboutUsContent li{
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutUsContent ul{
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 0;
+}

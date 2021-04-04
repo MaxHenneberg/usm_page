@@ -18,8 +18,8 @@ function FAQComponent(props) {
     faq = faqJson.my;
   }
   return (
-      <div className="mt-5 mb-3" id="faq">
-        <h1>Frequently Ask Questions</h1>
+      <div className="mt-5 mb-3">
+        <h1 id="faq">Frequently Ask Questions</h1>
         <div className="horizontalCenter">
           <div className="questionSection">
             <div className="mt-5">

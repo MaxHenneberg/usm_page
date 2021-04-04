@@ -6,7 +6,7 @@ import Button from "react-bootstrap/Button";
 function ContactComponent(props) {
     return (
         <div>
-            <h2>Get Connected</h2>
+            <h2 id="contact">Get Connected</h2>
             <div className="mt-4">
                 If you have any queries, or perhaps have something to share with the LineHayat team, please get in touch
                 with us:
@@ -49,7 +49,11 @@ function ContactComponent(props) {
                 </table>
             </div>
             <div className="mt-4">
-                Or by simply filling out the following form:
+                We are delighted to be able to help you in your most vulnerable times.<br/>
+                <br/>
+                If you have used our service before, it would be wonderful to know your experience so that we can provide better services in future.<br/>
+                <br/>
+                Worry not, as we promise a completely confidential service, your comments would be anonymous.
                 <div className="mt-3">
                     <a href='https://docs.google.com/forms/d/e/1FAIpQLSdyPtOfIKj6rVI0eUY9l4j5_ZYR6APHTrT5uLpD7e6zHLYQIQ/viewform?usp=sf_link'
                        target="_blank">

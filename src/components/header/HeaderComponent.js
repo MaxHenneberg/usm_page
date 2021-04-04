@@ -11,6 +11,7 @@ import "./HeaderComponent.css"
 import {LanguageContext} from "../../App";
 import Dropdown from "react-bootstrap/Dropdown";
 import Nav from "react-bootstrap/Nav";
+import logo from "../../contrib/lineHayatLogo.png";
 
 function HeaderComponent(props) {
   const languageContext = useContext(LanguageContext);
@@ -18,6 +19,14 @@ function HeaderComponent(props) {
   return (
       <div>
               <Navbar bg={"light"} expand="md" fixed="top" className="justify-content-between" expanded={expanded} onToggle={() => setExpanded(!expanded)}>
+                <Navbar.Brand href="/#">
+                  <img
+                      src={logo}
+                      width="0"
+                      height="0"
+                      className="d-inline-block align-top lHLogoHeader"
+                  />
+                </Navbar.Brand>
                 <NavbarToggle aria-controls="basic-navbar-nav"/>
                 <NavbarCollapse id="basic-navbar-nav" className="justify-content-between">
                   <Nav className="mr-auto" onSelect={() => setExpanded(!expanded)}>
@@ -30,7 +39,10 @@ function HeaderComponent(props) {
                     <NavLink href='#/volunteer' target="_blank">Volunteer</NavLink>
                     <NavLink href="#action/3.2">Support us</NavLink>
                     <NavLink href="/#faq">FAQ</NavLink>
-                    <NavLink href="/#faq">Our Contacts</NavLink>
+                    <NavDropdown title="Our Contacts" id="basic-nav-dropdown">
+                      <NavDropdown.Item href='/#contact'>Get Connected</NavDropdown.Item>
+                      <NavDropdown.Item href="https://docs.google.com/forms/d/e/1FAIpQLSdyPtOfIKj6rVI0eUY9l4j5_ZYR6APHTrT5uLpD7e6zHLYQIQ/viewform?usp=sf_link" target="_blank">Feedback Form</NavDropdown.Item>
+                    </NavDropdown>
                   </Nav>
                   <div className="horizontalCenter-sm">
                     <Form inline>

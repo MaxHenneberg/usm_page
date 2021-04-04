@@ -10,6 +10,7 @@
     "home": {
       "imsg": "Instant Messanger",
       "aboutUs": "Tentang kita",
+      "callUs" : "Call Us",
       "info": "<div>\nTalian hotline dibuka Mo-Fr<br/>Dari jam 8 malam hingga tengah malam<br/><br/>Hubungi kami: XXXX 1234511</div>"
     },
     "team": {
@@ -28,7 +29,8 @@
     "home": {
       "imsg": "Live Chat",
       "aboutUs": "About us",
-      "info": "<div>Welcome to LineHayat we are here to listen to you <br/>Hotline is open:<br/><span style='color:white'> Monday - Friday From 8PM - 2 AM</span><br/><br/>Call us: XXXX 1234511</div>"
+      "callUs": "Call Us",
+      "info": "<div>Welcome to LineHayat, an anonymous listening service that allows USM students to call in (or text) and have someone to listen and support.</div>\n<br/>\n<div>\nOur hotline is open from\n<br/> \n<span style=\"font-style: oblique;color: white;\">Monday - Friday, 8pm - 2am</span>\n</div>\n<br/>\n<div>Call us at: +6017-357 xxxx</div>\n"
     },
     "team": {
       "meetTheTeam": "Meet the Team",

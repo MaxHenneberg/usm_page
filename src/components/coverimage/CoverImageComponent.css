@@ -10,14 +10,42 @@
   object-fit: cover;
 }
 
-.hoverContent {
+.lHLogo{
+  width: 150px;
+  height: 150px;
+
+  margin-bottom: 5vh;
+}
+
+@media (max-width: 700px){
+  .lHLogo{
+    visibility: hidden;
+  }
+}
+
+
+
+.courtesyText{
+  text-align: left;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: white;
+  font-size: 0.5rem;
+
+  margin-left: 5px;
+}
+
+.hover{
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 40%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   float: left;
+}
 
+.hoverContent {
   background-color: rgba(0, 0, 0, 0.8);
   border: black solid 1px;
 

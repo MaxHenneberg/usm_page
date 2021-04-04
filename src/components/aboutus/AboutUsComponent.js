@@ -13,8 +13,9 @@ function AboutUsComponent(props) {
         aboutUs = aboutUsJson.my;
     }
     return (
-        <div className="aboutus" id="aboutus">
-            <h1>{aboutUs.title}</h1>
+        <div className="aboutus">
+            <h1 id="aboutus">{aboutUs.title}</h1>
+            <br/>
             <a name='aboutus'/>
             <Container fluid>
                 <Row>
@@ -22,9 +23,7 @@ function AboutUsComponent(props) {
                         <img className="aboutUsImg" src={aboutus1}/>
                     </Col>
                     <Col sm={true} lg={7}>
-                        <div className="aboutUsContent">
-                            {aboutUs.text}
-                        </div>
+                        <div className="aboutUsContent" dangerouslySetInnerHTML={{__html:aboutUs.text}}/>
                     </Col>
                 </Row>
             </Container>
