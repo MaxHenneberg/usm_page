@@ -1,12 +1,19 @@
 import React, {useContext} from "react";
 import {LanguageContext} from "../../../App";
+import VolunteerSlide1 from "../../volunteerSlides/VolunteerSlide1";
+import VolunteerSlide2 from "../../volunteerSlides/VolunteerSlide2";
+import VolunteerSlide3 from "../../volunteerSlides/VolunteerSlide3";
+import VolunteerSlide4 from "../../volunteerSlides/VolunteerSlide4";
+import VolunteerSlide5 from "../../volunteerSlides/VolunteerSlide5";
 function VolunteerView(props) {
   const languageContext = useContext(LanguageContext);
   return (
       <div>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdyPtOfIKj6rVI0eUY9l4j5_ZYR6APHTrT5uLpD7e6zHLYQIQ/viewform?embedded=true" width="640" height="390" frameBorder="0"
-                marginHeight="0" marginWidth="0">Wird geladen…
-        </iframe>
+        <VolunteerSlide1/>
+        <VolunteerSlide2/>
+        <VolunteerSlide3/>
+        <VolunteerSlide4/>
+        <VolunteerSlide5/>
       </div>
   )
 }
