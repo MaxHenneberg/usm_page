@@ -1,0 +1,101 @@
+h3 {
+    color: darkgray;
+}
+
+.carousel {
+    font-size: 1.2rem;
+    margin-top: 2em;
+    border: 1px solid black;
+}
+
+@media (max-width: 700px) {
+    .carousel {
+        width: 90vw;
+    }
+
+    .secondItem {
+        flex-direction: column;
+        margin: 0 0;
+    }
+
+  .secondItemContainer {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .secondItemImage{
+    margin-bottom: 0.5em;
+  }
+}
+
+@media (min-width: 700px) {
+    .carousel {
+        width: 60vw;
+    }
+
+    .secondItem {
+        flex-direction: row;
+        margin: 0 5em;
+    }
+
+    .secondItemContainer {
+        min-height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.carouselContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.carouselItem {
+    min-height: 50vh;
+}
+
+.firstItem {
+    margin-top: 0.5em;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondItem {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.secondItemImage {
+    border-radius: 5em;
+    width: 10em;
+    height: 10em;
+}
+
+.homeButtonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.buttonHome{
+    height: 3em;
+    width: 15em;
+    border-radius: 1.5em;
+    border: solid black 1px;
+    font-size: 1.1em;
+    margin-top: 1.5em;
+}
+
+.buttonHome:last-child{
+    margin-right: 0;
+}
