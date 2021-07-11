@@ -4,11 +4,17 @@
 }
 
 .jumbotronButtonContainer {
-    width: 50%;
     margin: 5em auto;
 }
 
 .jumbotronButton {
     border-top-left-radius: 25%;
     border-top-right-radius: 25%;
+    margin: 0 !important;
+}
+
+@media (min-width: 700px) {
+    .jumbotronButtonContainer {
+        width: 50%;
+    }
 }
