@@ -1,0 +1,20 @@
+{
+  "en": {
+    "helplines": [
+      {
+        "title": "Befrienders KL",
+        "body": "<p>Emotional support hotline.</p>\n<p>Confidential, free, non-judgemental.</p>\n<p class=\"bold\">24 hours, everyday.</p>\n<p class=\"bold\">Contact Befrienders suicide helpline:</p>\n<p>03-76272929</p>\n<p>Befrienders KL official website: <a href=\"https://www.befrienders.org.my/\">https://www.befrienders.org.my/</a></p>"
+      },
+      {
+        "title": "Befrienders Penang",
+        "body": "<p>WhatsApp service can be contacted through <span class=\"bold\">011-56706261</span> and may use either Bahasa Malaysia, English or Mandarin<p>\n<p>Offers face-to-face befriending at their center, strictly through appointment. Please call Befrienders Penang to arrange the meet up.</p>\n<p class=\"bold\">Operating hours from Monday to Sunday (3pm to 12 midnight).</p>\n<p>\n<span class=\"bold\">Address:</br></span>\nCounselling Centre Penang (The Befrienders) Pulau Pinang,</br>\nMewah Court, Blok 104 – 1A,</br>\nJalan Tan Sri The Ewe Lim,</br>\nPulau Pinang, 11600</br>\n</p>\n<p><span class=\"bold\">General call number:</span></br>\n04-2910100</p>\n<p><span class=\"bold\">Contact email:</span>\npat@befpen.org</p>\n<p>Befrienders Penang official website: https://befpen.org/</p>\n<p>Official Facebook page: https://m.facebook.com/befrienderspenang</p>"
+      }
+    ]
+  },
+  "my": {
+    "helplines": [
+      "<h2>A<h2><p>text</p>",
+      "<h2>B<h2><p>text</p>"
+    ]
+  }
+}

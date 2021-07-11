@@ -1,0 +1,10 @@
+.helplines-card:not(first-child){
+    margin-top: 5em;
+    text-align: left !important;
+    background-color: #f7f7f9;
+    border-radius: 3%;
+}
+
+.helplines-card-body{
+    width: 100% !important;
+}

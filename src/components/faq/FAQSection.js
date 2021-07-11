@@ -37,7 +37,7 @@ function FAQSection(props) {
         <Accordion>
           {props.questions.map((question, index) => {
             return (
-                <Card className={accordionContext.currentEventKey===index.toString()?"selectedCard":"notSelectedCard"}>
+                <Card className={accordionContext.currentEventKey===index.toString()?"selectedCard, faq-card":"notSelectedCard, faq-card"}>
                     <CustomToggle eventKey={index.toString()} callback={toggle} className={accordionContext.currentEventKey===index.toString()?"selectedCard":"notSelectedCard"}>
                       <h4 style={{float: "left"}}>{question.questionText}</h4>
                       {accordionContext.currentEventKey===index.toString() ? <i className="fas fa-chevron-down" style={{float: "right"}}/> : <i className="fas fa-chevron-left" style={{float: "right"}}/>}

@@ -10,19 +10,19 @@ h2{
   width: 75vw;
 }
 
-.card{
+.faq-card{
   border: none !important;
   border-radius: 5px;
   min-height: 7vh;
 }
 
-.card-header{
+.faq-card-header{
   width: 100%;
   font-family: 'Open Sans', sans-serif;
   text-align: left;
 }
 
-.card-body{
+.faq-card-body{
   font-family: 'GlacialIndifferenceRegular', sans-serif;
 }
 

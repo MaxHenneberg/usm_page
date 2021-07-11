@@ -112,3 +112,26 @@
 .w-fit-content{
   width: fit-content;
 }
+
+.displayFlexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.displayFlexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.justifyContentBetween {
+  justify-content: space-between;
+}
+
+.justifyContentCenter {
+  justify-content: center;
+}
+
+.bold{
+  font-weight: bolder;
+  font-size: 1.1em;
+}

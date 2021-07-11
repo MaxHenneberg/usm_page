@@ -1,0 +1,14 @@
+.resourceImage {
+    width: 30em;
+    height: 30em;
+}
+
+.jumbotronButtonContainer {
+    width: 50%;
+    margin: 5em auto;
+}
+
+.jumbotronButton {
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+}
