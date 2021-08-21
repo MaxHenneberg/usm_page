@@ -18,12 +18,12 @@ function HeaderComponent(props) {
   const [expanded, setExpanded] = useState(false);
   return (
       <div>
-              <Navbar bg={"light"} expand="md" fixed="top" className="justify-content-between" expanded={expanded} onToggle={() => setExpanded(!expanded)}>
+              <Navbar expand="md" fixed="top" className="justify-content-between header" expanded={expanded} onToggle={() => setExpanded(!expanded)}>
                 <Navbar.Brand href="/#">
                   <img
                       src={logo}
-                      width="0"
-                      height="0"
+                      width="50"
+                      height="50"
                       className="d-inline-block align-top lHLogoHeader"
                   />
                 </Navbar.Brand>

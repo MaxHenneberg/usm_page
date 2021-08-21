@@ -27,21 +27,6 @@ h1 {
 h2{
 }
 
-@media (min-width: 576px) {
-    .veryLargeHeadline{
-        font-size: 5rem;
-    }
-    .largeHeadline{
-        font-size: 2rem;
-    }
-}
-
-@media (max-width: 575px) {
-    .slide2Text{
-        margin-top: 20px;
-    }
-}
-
 .slide1Button{
     border-radius: 35px;
     height: 70px;
@@ -85,4 +70,26 @@ h2{
 
 .slide5Bg{
  background-color:  rgb(248, 251, 253)
+}
+
+@media (min-width: 576px) {
+    .veryLargeHeadline{
+        font-size: 5rem;
+    }
+    .largeHeadline{
+        font-size: 2rem;
+    }
+
+    .slide2Text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: fit-content;
+    }
+}
+
+@media (max-width: 575px) {
+    .slide2Text{
+        margin-top: 20px;
+    }
 }

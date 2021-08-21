@@ -42,20 +42,13 @@ function HomeCarouselComponent(props) {
                                 </Row>
                             </Container>
                         </div>
-                        {/*<div className="secondItemContainer">*/}
-                        {/*    <div className="secondItem">*/}
-                        {/*        <Image src={usmMain} className="secondItemImage"/>*/}
-                        {/*        <Image src={usmMain} className="secondItemImage"/>*/}
-                        {/*        <Image src={usmMain} className="secondItemImage"/>*/}
-                        {/*    </div>*/}
-                        {/*</div>*/}
                     </Carousel.Item>
                 </Carousel>
             </div>
             <Container style={{height: '100%', width: 'fit-content'}}>
                 <Row style={{width: 'fit-content', marginRight:'0'}}>
-                    <Col sm={12} xs={12} md={12} lg={6}><Button variant="light" href="#/help" className="buttonHome"><i className="fas fa-comments"></i>Live Chat</Button></Col>
-                    <Col sm={12} xs={12} md={12} lg={6}><Button variant="light" className="buttonHome"><i className="fas fa-phone-alt"></i> Call Us</Button></Col>
+                    <Col sm={12} xs={12} md={12} lg={6}><Button variant="primary" href="#/help" className="buttonHome"><i className="fas fa-comments"></i>Live Chat</Button></Col>
+                    <Col sm={12} xs={12} md={12} lg={6}><Button variant="secondary" className="buttonHome"><i className="fas fa-phone-alt"></i> Call Us</Button></Col>
                 </Row>
             </Container>
         </div>

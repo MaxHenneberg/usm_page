@@ -8,10 +8,9 @@ import HomeCarouselComponent from "../../homeCarousel/HomeCarouselComponent";
 
 function HomeView(props) {
   return (
-    <div>
+    <div className="homeView">
       <HomeCarouselComponent/>
       <AboutUsComponent/>
-      <FAQComponent/>
       <ContactComponent/>
     </div>
   )

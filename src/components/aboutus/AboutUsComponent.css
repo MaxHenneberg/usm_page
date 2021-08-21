@@ -1,9 +1,10 @@
+* {-webkit-font-smoothing: antialiased;}
 .aboutus{
   width: 100%;
   display: inline-block;
 
   padding-bottom: 5vh;
-  border-bottom: solid black 5px;
+  color: #907667;
 }
 
 .aboutus h1{
@@ -12,6 +13,7 @@
   margin-right: auto;
   margin-top: 50px;
   margin-bottom: 20px;
+  color: #5b4c43;
 }
 
 .aboutUsImg{
