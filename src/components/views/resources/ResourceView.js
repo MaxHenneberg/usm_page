@@ -14,8 +14,8 @@ function ResourceView(props) {
     const [selectedPage, setSelectedPage] = React.useState("helplines");
 
     return (
-        <div>
-            <Jumbotron style={{paddingBottom: '0'}}>
+        <div className="bottomContainer">
+            <Jumbotron style={{paddingBottom: '0'}} className="topContainer">
                 <Container style={{height: '100%', width: 'fit-content'}}>
                     <Row style={{width: 'fit-content', marginRight: '0'}}>
                         <Col sm={12} xs={12} md={12} lg={6} className="displayFlexColumn justifyContentCenter">
@@ -34,9 +34,11 @@ function ResourceView(props) {
                     <Button variant="light" className="jumbotronButton" onClick={() => setSelectedPage("mediaResource")}>Media Resources</Button>
                 </div>
             </Jumbotron>
-            {selectedPage==="helplines" && <div><HelpLinesComponent/></div>}
-            {selectedPage==="news" && <div>News coming soon !</div>}
-            {selectedPage==="mediaResource" && <div>Media Resources coming soon!</div>}
+            <div>
+                {selectedPage==="helplines" && <div><HelpLinesComponent/></div>}
+                {selectedPage==="news" && <div>News coming soon !</div>}
+                {selectedPage==="mediaResource" && <div>Media Resources coming soon!</div>}
+            </div>
         </div>
     )
 }

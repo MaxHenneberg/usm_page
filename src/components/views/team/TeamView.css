@@ -13,26 +13,21 @@
   }
 }
 
-.card-title{
-  margin-left: auto;
-  margin-right: auto;
-  width: fit-content;
+#team {
+  background-color: #F3F3F3;
+  min-height: 100%;
 }
 
-.card-body{
-  margin-left: auto;
-  margin-right: auto;
-  width: fit-content;
-}
-
-.teamImg{
-
+.organiGram {
+  margin: 3vh auto;
+  width: 80%;
+  height: 40vh;
+  background-color: #3ca861;
 }
 
 .teamImgContainer{
   width: 100px;
   height: 100px;
-  border-radius: 50px;
   overflow: hidden;
   margin-right: auto;
   margin-left: auto;

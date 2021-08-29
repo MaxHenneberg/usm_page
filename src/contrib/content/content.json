@@ -3,9 +3,17 @@
     "header": {
       "home": "Linehayat",
       "helped": "Reach us",
+      "chat": "Chat Service",
+      "call": "Call Service",
+      "privacy": "Privacy Policy",
+      "volunteer": "Volunteer",
+      "resources": "Resources",
       "support": "Sokong kami!",
+      "getConnected": "Get Connected",
+      "feedback": "Feedback Form",
       "team": "Pasukan",
-      "whoWeAre": "Who we are"
+      "whoWeAre": "Who we are",
+      "hebatAgenda":  "Hebat Agenda"
     },
     "home": {
       "imsg": "Instant Messanger",
@@ -22,9 +30,17 @@
     "header": {
       "home": "Linehayat",
       "helped": "Reach us",
+      "chat": "Chat Service",
+      "call": "Call Service",
+      "privacy": "Privacy Policy",
+      "volunteer": "Volunteer",
+      "resources": "Resources",
+      "getConnected": "Get Connected",
+      "feedback": "Feedback Form",
       "support": "SUPPORT US!",
       "team": "Team",
-      "whoWeAre": "Who we are"
+      "whoWeAre": "Who we are",
+      "hebatAgenda":  "Hebat Agenda"
     },
     "home": {
       "imsg": "Live Chat",

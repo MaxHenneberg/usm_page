@@ -2,16 +2,16 @@
   background-color: #ccdfdf;
   padding: 0 0 !important;
   max-width: 100%;
-  overflow: hidden;
+  z-index: 9000;
+}
+
+.dropdown-menu{
+  background-color: #ccdfdf !important;
 }
 
 .custom-switch{
   margin-left: 10px !important;
   margin-right: 10px !important;
-}
-
-.dropdown-item{
-  width: fit-content !important;
 }
 
 .dropdown-menu{

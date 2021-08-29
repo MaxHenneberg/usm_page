@@ -12,16 +12,26 @@ function HelpLinesComponent(props) {
     }
     return (
         <div style={{width:'70%', margin:'0 auto'}}>
-            {helplines.helplines.map((helpline) => {
-                return <Card className="helplines-card">
-                    <Card.Body className="helplines-card-body">
-                        <Card.Title>{helpline.title}</Card.Title>
-                        <Card.Text>
-                            <div dangerouslySetInnerHTML={{__html: helpline.body}}/>
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
-
+            {helplines.helplines.map((helpline, i) => {
+                if(i%2===0) {
+                    return <Card className="helplines-card">
+                        <Card.Body className="helplines-card-body">
+                            <Card.Title>{helpline.title}</Card.Title>
+                            <Card.Text>
+                                <div dangerouslySetInnerHTML={{__html: helpline.body}}/>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                }else {
+                    return <Card className="helplines-card helplines-card-odd">
+                        <Card.Body className="helplines-card-body">
+                            <Card.Title>{helpline.title}</Card.Title>
+                            <Card.Text>
+                                <div dangerouslySetInnerHTML={{__html: helpline.body}}/>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                }
             })}
         </div>
     )

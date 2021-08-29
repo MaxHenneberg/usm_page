@@ -3,9 +3,22 @@
   width: 100%;
   position: relative;
   min-height: 100vh !important;
+  background-color: #F3F3F3;
   display: block;
 
   overflow-x: hidden;
+}
+
+p{
+  color: #907667 !important;
+}
+
+h1{
+  color: #5b4c43 !important;
+}
+
+h2{
+  color: #5b4c43 !important;
 }
 
 .content{

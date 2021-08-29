@@ -8,8 +8,9 @@
 }
 
 .jumbotronButton {
-    border-top-left-radius: 25%;
-    border-top-right-radius: 25%;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    background-color: #F6D1C8;
     margin: 0 !important;
 }
 
@@ -17,4 +18,14 @@
     .jumbotronButtonContainer {
         width: 50%;
     }
+}
+
+.topContainer{
+    background-color: #FFF7E4;
+}
+
+.bottomContainer{
+    background-color: #F3F3F3;
+    min-height: 100vh;
+    padding-bottom: 5vh;
 }
