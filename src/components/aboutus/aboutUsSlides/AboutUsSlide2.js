@@ -20,7 +20,7 @@ function AboutUsSlide2(props) {
                 <Col xs={12} sm={12} md={6} lg={6}>
                     <div className="slide2Text">
                         <div>
-                            <h1>Who We Are:</h1>
+                            <h2>Who We Are:</h2>
                             <div style={{marginTop: '5%'}}>
                                 <p>LineHayat is a Listening Service that aims to provide peer support to Universiti
                                     Sains Malaysia (USM) students.</p>

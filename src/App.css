@@ -10,15 +10,24 @@
 }
 
 p{
-  color: #907667 !important;
+  color: #846859 !important;
+  font-family: printclearly, sans-serif;
+  font-size: 17px;
 }
 
 h1{
   color: #5b4c43 !important;
+  font-family: berkshireswash, sans-serif;
 }
 
 h2{
   color: #5b4c43 !important;
+  font-family: crimsonfont, sans-serif;
+}
+
+h4{
+  color: #5B4C43 !important;
+  font-family: crimsonfont, sans-serif;
 }
 
 .content{
@@ -148,4 +157,17 @@ h2{
 .bold{
   font-weight: bolder;
   font-size: 1.1em;
+}
+
+@font-face {
+  font-family: 'berkshireswash';
+  src: url('./contrib/font/berkshireswash-regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'printclearly';
+  src: url('./contrib/font/print_clearly_bold_tt.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'crimsonfont';
+  src: url('./contrib/font/Crimson-Bold.otf') format('opentype');
 }

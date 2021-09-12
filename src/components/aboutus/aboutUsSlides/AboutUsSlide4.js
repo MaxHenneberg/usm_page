@@ -20,7 +20,7 @@ function AboutUsSlide2(props) {
                 <Col xs={12} sm={12} md={6} lg={6}>
                     <div className="slide2Text">
                         <div>
-                            <h1>What We Do:</h1>
+                            <h2>What We Do:</h2>
                             <div style={{marginTop: '5%'}}>
                                 <p>We are always here to lend a listening ear on for whatever
                                     you may be facing right now. We listen.</p>

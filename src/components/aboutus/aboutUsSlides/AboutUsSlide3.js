@@ -20,7 +20,7 @@ function AboutUsSlide3(props) {
                 <Col xs={12} sm={12} md={6} lg={6}>
                     <div className="slide2Text">
                         <div>
-                            <h1>Who We Are Not: </h1>
+                            <h2>Who We Are Not: </h2>
                             <div style={{marginTop: '5%'}}>
                                 <p>Line Hayat is not a counselling or a professional mental health service.</p>
                                 <p>We are not associated with any mental health professionals such as psychologists,
