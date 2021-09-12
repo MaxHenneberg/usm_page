@@ -2,13 +2,18 @@ import React, {useContext} from "react";
 import {LanguageContext} from "../../App";
 import Carousel from "react-bootstrap/Carousel";
 import "./HomeCarouselComponent.css";
-import usmMain from "../../contrib/usmMain.png";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import logo from "../../contrib/lineHayatLogo.png";
+
+import carousel1 from "../../contrib/homeCarousel/carousel1.svg"
+import carousel2 from "../../contrib/homeCarousel/carousel2.svg"
+import carousel3 from "../../contrib/homeCarousel/carousel3.svg"
+import carousel4 from "../../contrib/homeCarousel/carousel4.svg"
+import carousel5 from "../../contrib/homeCarousel/carousel5.svg"
+import carousel6 from "../../contrib/homeCarousel/carousel6.svg"
 
 function HomeCarouselComponent(props) {
     const languageContext = useContext(LanguageContext);
@@ -28,7 +33,8 @@ function HomeCarouselComponent(props) {
                                 anonymously via live texting or phone call.</p>
                             <p>We are always here to listen!</p>
                             <p>#YouShareWeCare</p>
-                            <p className="bold">We are online from Monday to Sunday from 10pm to 2am,excluding public holidays.</p>
+                            <p className="bold">We are online from Monday to Sunday from 10pm to 2am,excluding public
+                                holidays.</p>
                             <p className="bold">Access latest news <a href="">here</a></p>
                         </div>
                     </Carousel.Item>
@@ -36,9 +42,49 @@ function HomeCarouselComponent(props) {
                         <div className="secondItemContainer">
                             <Container fluid style={{height: '100%'}}>
                                 <Row>
-                                    <Col sm={12} xs={12} md={12} lg={4}><Image src={usmMain} className="secondItemImage"/></Col>
-                                    <Col sm={12} xs={12} md={12} lg={4}><Image src={usmMain} className="secondItemImage"/></Col>
-                                    <Col sm={12} xs={12} md={12} lg={4}><Image src={usmMain} className="secondItemImage"/></Col>
+                                    <Col sm={12} xs={12} md={12} lg={12}><h1>LineHayat Anonymous Chat Service - How it
+                                        Works?</h1></Col>
+                                </Row>
+                                <Row>
+                                    <Col sm={12} xs={12} md={12} lg={4}>
+                                        <Image src={carousel1} className="secondItemImage"/>
+                                        <p>Click the ‘Live Chat’ button.</p>
+                                    </Col>
+                                    <Col sm={12} xs={12} md={12} lg={4}>
+                                        <Image src={carousel2} className="secondItemImage"/>
+                                        <p>Wait for your turn, you will be connected to a Listening Volunteer shortly.</p>
+                                    </Col>
+                                    <Col sm={12} xs={12} md={12} lg={4}>
+                                        <Image src={carousel3} className="secondItemImage"/>
+                                        <p>A chatroom will be opened when it reaches your turn.</p>
+                                    </Col>
+                                </Row>
+                            </Container>
+                        </div>
+                    </Carousel.Item>
+                    <Carousel.Item className="carouselItem">
+                        <div className="secondItemContainer">
+                            <Container fluid style={{height: '100%'}}>
+                                <Row>
+                                    <Col sm={12} xs={12} md={12} lg={12}><h1>LineHayat Anonymous Call Service - How it
+                                        Works?</h1></Col>
+                                </Row>
+                                <Row>
+                                    <Col sm={12} xs={12} md={12} lg={4}>
+                                        <Image src={carousel4} className="secondItemImage"/>
+                                        <p>Click the 'Call Us’ button.</p>
+                                    </Col>
+                                    <Col sm={12} xs={12} md={12} lg={4}>
+                                        <Image src={carousel5} className="secondItemImage"/>
+                                        <p>Wait for your turn, you will
+                                            be connected to a Listening
+                                            Volunteer shortly.</p>
+                                    </Col>
+                                    <Col sm={12} xs={12} md={12} lg={4}>
+                                        <Image src={carousel6} className="secondItemImage"/>
+                                        <p>A free call will be automatically
+                                            connected when it reaches your turn.</p>
+                                    </Col>
                                 </Row>
                             </Container>
                         </div>
@@ -46,9 +92,12 @@ function HomeCarouselComponent(props) {
                 </Carousel>
             </div>
             <Container style={{height: '100%', width: 'fit-content'}}>
-                <Row style={{width: 'fit-content', marginRight:'0'}}>
-                    <Col sm={12} xs={12} md={12} lg={6}><Button variant="primary" href="#/help" className="buttonHome"><i className="fas fa-comments"></i>Live Chat</Button></Col>
-                    <Col sm={12} xs={12} md={12} lg={6}><Button variant="secondary" className="buttonHome"><i className="fas fa-phone-alt"></i> Call Us</Button></Col>
+                <Row style={{width: 'fit-content', marginRight: '0'}}>
+                    <Col sm={12} xs={12} md={12} lg={6}><Button variant="primary" href="#/help"
+                                                                className="buttonHome"><i
+                        className="fas fa-comments"></i>Live Chat</Button></Col>
+                    <Col sm={12} xs={12} md={12} lg={6}><Button variant="secondary" className="buttonHome"><i
+                        className="fas fa-phone-alt"></i> Call Us</Button></Col>
                 </Row>
             </Container>
         </div>

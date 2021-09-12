@@ -13,6 +13,7 @@ import TeamView from "./components/views/team/TeamView";
 import ChatView from "./components/views/chat/ChatView";
 import ResourceView from "./components/views/resources/ResourceView";
 import PrivacyView from "./components/views/privacyPolicy/PrivacyView";
+import FaqView from "./components/views/faq/faqView";
 
 export const LanguageContext = React.createContext({
     language: 'my',
@@ -27,6 +28,7 @@ function App() {
         {component: TeamView, path: '/team', exact: true},
         {component: ResourceView, path: '/resources', exact: true},
         {component: PrivacyView, path: '/privacy', exact: true},
+        {component: FaqView, path: '/faq', exact: true},
         {component: HomeView, path: '/*', exact: true},
     ]);
     const [languageContext, setLanguageContext] = React.useState({

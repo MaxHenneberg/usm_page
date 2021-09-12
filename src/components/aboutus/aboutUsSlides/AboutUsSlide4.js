@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../../contrib/About Us Page 4.png";
+import image from "../../../contrib/About Us Page 4.svg";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 

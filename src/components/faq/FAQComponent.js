@@ -27,11 +27,15 @@ function FAQComponent(props) {
             <FAQSection questions={faq.questions.general}/>
             </div>
             <div className="mt-5">
-              <h2>For Receivers</h2>
-              <FAQSection questions={faq.questions.receiver}/>
+              <h2>Questions by Sharers</h2>
+              <FAQSection questions={faq.questions.sharer}/>
             </div>
             <div className="mt-5">
-              <h2>For Volunteers</h2>
+              <h2>Questions by Listening Volunteers</h2>
+              <FAQSection questions={faq.questions.volunteer}/>
+            </div>
+            <div className="mt-5">
+              <h2>Questions by Supporters</h2>
               <FAQSection questions={faq.questions.volunteer}/>
             </div>
           </div>
