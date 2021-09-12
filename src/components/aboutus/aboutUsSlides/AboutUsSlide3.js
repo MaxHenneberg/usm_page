@@ -1,6 +1,5 @@
 import React from "react";
-import image from "../../../contrib/Volunteer Page 2.png";
-import Container from "react-bootstrap/Container";
+import image from "../../../contrib/About Us Page 3.gif";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 

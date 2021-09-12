@@ -38,7 +38,7 @@ function HeaderComponent(props) {
                     <NavDropdown title={languageContext.content.header.helped} id="basic-nav-dropdown">
                       <NavDropdown.Item href="#/help" >{languageContext.content.header.chat}</NavDropdown.Item>
                       <NavDropdown.Item href="#/help" >{languageContext.content.header.call}</NavDropdown.Item>
-                      <NavDropdown.Item href="#/help" >{languageContext.content.header.privacy}</NavDropdown.Item>
+                      <NavDropdown.Item href="#/privacy" >{languageContext.content.header.privacy}</NavDropdown.Item>
                     </NavDropdown>
 
                     <NavLink href='#/volunteer' target="_blank">{languageContext.content.header.volunteer}</NavLink>

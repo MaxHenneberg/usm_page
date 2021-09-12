@@ -1,6 +1,5 @@
 import React from "react";
-import image from "../../../contrib/Volunteer Page 2.png";
-import Container from "react-bootstrap/Container";
+import image from "../../../contrib/About Us Page 2.gif";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
@@ -30,7 +29,7 @@ function AboutUsSlide2(props) {
                                 <p>We also understand the need to maintain privacy when it comes to talking about
                                     problems.</p>
                                 <p>Therefore, we are established on these three main ideas:</p>
-                                <ul style={{width: 'fit-content', margin: '0 auto'}}>
+                                <ul style={{width: 'fit-content'}}>
                                     <li style={{width: 'fit-content'}}>
                                         <p style={{fontWeight:'bold'}}>Anonymous peer support</p>
                                     </li>

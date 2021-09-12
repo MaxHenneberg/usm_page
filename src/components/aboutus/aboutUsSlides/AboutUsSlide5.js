@@ -1,6 +1,5 @@
 import React from "react";
-import image from "../../../contrib/Volunteer Page 2.png";
-import Container from "react-bootstrap/Container";
+import image from "../../../contrib/About Us Page 5.png";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
@@ -15,7 +14,7 @@ function AboutUsSlide3(props) {
             <Row style={{height: '100%'}}>
                 {window.innerWidth > 576 &&
                 <Col xs={12} sm={12} md={6} lg={6}>
-                    <img src={image} width="80%" height="80%"/>
+                    <img src={image} width="80%" height="70%"/>
                 </Col>
                 }
                 <Col xs={12} sm={12} md={6} lg={6}>

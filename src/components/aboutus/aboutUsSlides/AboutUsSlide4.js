@@ -1,6 +1,5 @@
 import React from "react";
-import image from "../../../contrib/Volunteer Page 2.png";
-import Container from "react-bootstrap/Container";
+import image from "../../../contrib/About Us Page 4.png";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
@@ -15,7 +14,7 @@ function AboutUsSlide2(props) {
             <Row style={{height: '100%'}}>
                 {window.innerWidth <= 576 &&
                 <Col xs={12} sm={12} md={6} lg={6}>
-                    <img src={image} width="80%" height="80%"/>
+                    <img src={image} width="100%" height="100%"/>
                 </Col>
                 }
                 <Col xs={12} sm={12} md={6} lg={6}>
@@ -27,7 +26,7 @@ function AboutUsSlide2(props) {
                                     you may be facing right now. We listen.</p>
                                 <p>Feel free to reach us through our call or chat services.</p>
                                 <p>You may want to talk about:</p>
-                                <ul style={{width: 'fit-content', margin: '0 auto'}}>
+                                <ul style={{width: 'fit-content'}}>
                                     <li style={{width: 'fit-content'}}>
                                         <p style={{fontWeight:'bold'}}>Study stress</p>
                                     </li>

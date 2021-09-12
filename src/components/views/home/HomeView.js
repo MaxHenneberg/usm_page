@@ -7,13 +7,13 @@ import ContactComponent from "../../contact/ContactComponent";
 import HomeCarouselComponent from "../../homeCarousel/HomeCarouselComponent";
 
 function HomeView(props) {
-  return (
-    <div className="homeView">
-      <HomeCarouselComponent/>
-      <AboutUsComponent/>
-      <ContactComponent/>
-    </div>
-  )
+    return (
+        <div className="homeView">
+            <HomeCarouselComponent/>
+            <AboutUsComponent/>
+            <ContactComponent/>
+        </div>
+    )
 }
 
 export default HomeView;

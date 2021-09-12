@@ -1,7 +1,7 @@
 import React, {useContext} from "react";
 import {LanguageContext} from "../../App";
 import faqJson from "../../contrib/content/faq";
-import image from "../../contrib/Volunteer Page 2.png";
+import image from "../../contrib/Volunteer Page 2.gif";
 import css from "../views/volunteer/VolunteerView.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
