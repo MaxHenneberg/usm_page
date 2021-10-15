@@ -9,9 +9,10 @@
 }
 
 .footerContent{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  width: 100vw;
+  /*display: flex;*/
+  /*flex-direction: row;*/
+  /*justify-content: space-evenly;*/
 }
 
 .footer h3{
@@ -20,6 +21,13 @@
 .usmLogo{
   max-height: 10vh !important;
   height: 10vh;
+}
+
+.footerHighlight {
+  font-weight: bold;
+  color: #5b4c43;
+  text-shadow: #5b4c43 0px 0px 1px;
+  -webkit-font-smoothing: antialiased;
 }
 
 .myLink{

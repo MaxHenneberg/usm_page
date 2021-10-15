@@ -2,6 +2,7 @@ import React from "react";
 import "./ContactComponent.css"
 import {Link} from "react-router-dom";
 import Button from "react-bootstrap/Button";
+import igIcon from "../../contrib/igIcon.svg";
 
 function ContactComponent(props) {
     return (

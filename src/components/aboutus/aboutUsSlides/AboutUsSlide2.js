@@ -21,7 +21,7 @@ function AboutUsSlide2(props) {
                     <div className="slide2Text">
                         <div>
                             <h2>Who We Are:</h2>
-                            <div style={{marginTop: '5%'}}>
+                            <div style={{margin: '5% 0 0 0'}}>
                                 <p>LineHayat is a Listening Service that aims to provide peer support to Universiti
                                     Sains Malaysia (USM) students.</p>
                                 <p>This service is run by students for students to ensure comfortable communication and
@@ -29,15 +29,16 @@ function AboutUsSlide2(props) {
                                 <p>We also understand the need to maintain privacy when it comes to talking about
                                     problems.</p>
                                 <p>Therefore, we are established on these three main ideas:</p>
-                                <ul style={{width: 'fit-content'}}>
+                                <ul style={{width: 'fit-content', textAlign: 'center'}}
+                                    className="whoWeAreList crimson-font list-font">
                                     <li style={{width: 'fit-content'}}>
-                                        <p style={{fontWeight:'bold'}}>Anonymous peer support</p>
+                                        Anonymous peer support
                                     </li>
                                     <li style={{width: 'fit-content'}}>
-                                        <p style={{fontWeight:'bold'}}>Trained volunteerism</p>
+                                        Trained volunteerism
                                     </li>
                                     <li style={{width: 'fit-content'}}>
-                                        <p style={{fontWeight:'bold'}}>Peer capacity building</p>
+                                        Peer capacity building
                                     </li>
                                 </ul>
                             </div>

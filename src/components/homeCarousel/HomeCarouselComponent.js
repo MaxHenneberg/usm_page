@@ -23,7 +23,7 @@ function HomeCarouselComponent(props) {
                 <Carousel className="carousel" controls="false" indicators="false">
                     <Carousel.Item className="carouselItem">
                         <div className="firstItem">
-                            <h3>LineHayat Is Your Friendly And Private Platform To Lend You An Ear.</h3>
+                            <h4 className="mb-5 carouselHeadline">LineHayat Is Your Friendly And Private Platform To Lend You An Ear.</h4>
                             <p>This platform, based in Universiti Sains Malaysia (USM), offers peer support
                                 that is fully run by students for students (free of charge).</p>
                             <p>LineHayat cares about all university students' well-being and continues to
@@ -33,17 +33,15 @@ function HomeCarouselComponent(props) {
                                 anonymously via live texting or phone call.</p>
                             <p>We are always here to listen!</p>
                             <p>#YouShareWeCare</p>
-                            <p className="bold">We are online from Monday to Sunday from 10pm to 2am,excluding public
-                                holidays.</p>
-                            <p className="bold">Access latest news <a href="">here</a></p>
+                            <p className="bold" style={{color: '#5B4C43', fontSize: '1.4em'}}>Operation hours to be confirmed</p>
                         </div>
                     </Carousel.Item>
                     <Carousel.Item className="carouselItem">
                         <div className="secondItemContainer">
                             <Container fluid style={{height: '100%'}}>
                                 <Row>
-                                    <Col sm={12} xs={12} md={12} lg={12}><h1>LineHayat Anonymous Chat Service - How it
-                                        Works?</h1></Col>
+                                    <Col sm={12} xs={12} md={12} lg={12}><h4 className="berkshire-font mb-5 carouselHeadline">LineHayat Anonymous Chat Service - How it
+                                        Works?</h4></Col>
                                 </Row>
                                 <Row>
                                     <Col sm={12} xs={12} md={12} lg={4}>
@@ -66,8 +64,8 @@ function HomeCarouselComponent(props) {
                         <div className="secondItemContainer">
                             <Container fluid style={{height: '100%'}}>
                                 <Row>
-                                    <Col sm={12} xs={12} md={12} lg={12}><h1>LineHayat Anonymous Call Service - How it
-                                        Works?</h1></Col>
+                                    <Col sm={12} xs={12} md={12} lg={12}><h4 className="berkshire-font mb-5 carouselHeadline">LineHayat Anonymous Call Service - How it
+                                        Works?</h4></Col>
                                 </Row>
                                 <Row>
                                     <Col sm={12} xs={12} md={12} lg={4}>
@@ -94,8 +92,8 @@ function HomeCarouselComponent(props) {
             <Container style={{height: '100%', width: 'fit-content'}}>
                 <Row style={{width: 'fit-content', marginRight: '0'}}>
                     <Col sm={12} xs={12} md={12} lg={6}><Button variant="primary" href="#/help"
-                                                                className="buttonHome"><i
-                        className="fas fa-comments"></i>Live Chat</Button></Col>
+                                                                className="buttonHome">
+                        <i className="fas fa-comments"></i>Live Chat</Button></Col>
                     <Col sm={12} xs={12} md={12} lg={6}><Button variant="secondary" className="buttonHome"><i
                         className="fas fa-phone-alt"></i> Call Us</Button></Col>
                 </Row>

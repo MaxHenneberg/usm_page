@@ -1,13 +1,18 @@
-h3 {
-    color: darkgray;
-}
-
 .carousel {
     font-size: 1.2rem;
     margin-top: 2em;
-    border: 1px solid black;
+    border: none;
 
-    background-image: linear-gradient(#E5EAEE, #B0CECF);
+    min-height: 60vh;
+
+    border-radius: 25px;
+
+    background: transparent linear-gradient(180deg, rgba(229, 234, 238, 0.8) 0%, rgba(176, 206, 207, 0.8) 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.carouselHeadline {
+    font-size: 30px !important;
 }
 
 @media (max-width: 700px) {
@@ -21,7 +26,6 @@ h3 {
     }
 
   .secondItemContainer {
-    min-height: 50vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -31,6 +35,11 @@ h3 {
     margin-bottom: 0.5em;
   }
 }
+
+.carousel-indicators li { visibility: hidden; }
+
+.carousel-control-next {visibility: hidden;}
+.carousel-control-prev {visibility: hidden;}
 
 @media (min-width: 700px) {
     .carousel {
@@ -43,10 +52,11 @@ h3 {
     }
 
     .secondItemContainer {
-        min-height: 50vh;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
+        margin-top: 5vh;
+        height: fit-content;
     }
 }
 
@@ -56,12 +66,11 @@ h3 {
 }
 
 .carouselItem {
-    min-height: 50vh;
+    height: fit-content;
 }
 
 .firstItem {
     margin-top: 0.5em;
-    min-height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,7 +102,6 @@ h3 {
     height: 3em;
     width: 15em;
     border-radius: 1.5em;
-    border: solid black 1px;
     font-size: 1.1em;
     margin-top: 1.5em;
 }

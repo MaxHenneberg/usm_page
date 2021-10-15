@@ -14,7 +14,7 @@ function AboutUsSlide3(props) {
             <Row style={{height: '100%'}}>
                 {window.innerWidth > 576 &&
                 <Col xs={12} sm={12} md={6} lg={6}>
-                    <img src={image} width="80%" height="70%"/>
+                    <img src={image} width="100%" height="90%"/>
                 </Col>
                 }
                 <Col xs={12} sm={12} md={6} lg={6}>
@@ -23,16 +23,16 @@ function AboutUsSlide3(props) {
                             <h2>What To Expect:</h2>
                             <div style={{marginTop: '5%'}}>
                                 <p>You are ensured that:</p>
-                                <p>We <span style={{fontWeight:'bold', color:'#5b4c43'}}>don’t judge</span></p>
-                                <p>We <span style={{fontWeight:'bold', color:'#5b4c43'}}>won’t tel l you what to do</span></p>
-                                <p>Everything is <span style={{fontWeight:'bold', color:'#5b4c43'}}>confidential and anonymous.</span></p>
+                                <p>We <span className="slide5Highlight">don’t judge</span></p>
+                                <p>We <span className="slide5Highlight">won’t tel l you what to do</span></p>
+                                <p>Everything is <span className="slide5Highlight">confidential and anonymous.</span></p>
                             </div>
                         </div>
                     </div>
                 </Col>
                 {window.innerWidth <= 576 &&
                 <Col xs={12} sm={12} md={6} lg={6}>
-                    <img src={image} width="80%" height="80%"/>
+                    <img src={image} width="100%" height="90%"/>
                 </Col>
                 }
             </Row>

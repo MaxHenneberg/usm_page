@@ -26,31 +26,31 @@ function AboutUsSlide2(props) {
                                     you may be facing right now. We listen.</p>
                                 <p>Feel free to reach us through our call or chat services.</p>
                                 <p>You may want to talk about:</p>
-                                <ul style={{width: 'fit-content'}}>
+                                <ul style={{width: 'fit-content'}} className="crimson-font list-font">
                                     <li style={{width: 'fit-content'}}>
-                                        <p style={{fontWeight:'bold'}}>Study stress</p>
+                                        Study stress
                                     </li>
                                     <li style={{width: 'fit-content'}}>
-                                        <p style={{fontWeight:'bold'}}>Confusions</p>
+                                        Confusions
                                     </li>
                                     <li style={{width: 'fit-content'}}>
-                                        <p style={{fontWeight:'bold'}}>Feeling lost/alone/empty</p>
+                                        Feeling lost/alone/empty
                                     </li>
                                     <li style={{width: 'fit-content'}}>
-                                        <p style={{fontWeight:'bold'}}>Life challenges</p>
+                                        Life challenges
                                     </li>
                                     <li style={{width: 'fit-content'}}>
-                                        <p style={{fontWeight:'bold'}}>Anything that concerns you</p>
+                                        Anything that concerns you
                                     </li>
                                 </ul>
-                                <h4>#You Share, We Care</h4>
+                                <h4 style={{fontSize:'35px'}}>#You Share, We Care</h4>
                             </div>
                         </div>
                     </div>
                 </Col>
                 {window.innerWidth > 576 &&
                 <Col xs={12} sm={12} md={6} lg={6}>
-                    <img src={image} width="80%" height="80%"/>
+                    <img src={image} width="100%" height="100%"/>
                 </Col>
                 }
             </Row>

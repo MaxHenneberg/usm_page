@@ -25,7 +25,7 @@ function AboutUsComponent(props) {
             <AboutUsSlide4/>
             <AboutUsSlide5/>
             <div style={{margin: '0 auto', width: 'fit-content'}}>
-                <Button variant="primary" href="#/help" className="buttonHome">Meet the Team</Button>
+                <Button variant="primary" href="#/help" className="buttonHome">Meet Our Team</Button>
             </div>
         </div>
     )
