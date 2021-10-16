@@ -1,12 +1,16 @@
 import React from "react";
 import "./ContactComponent.css"
-import {Link} from "react-router-dom";
 import Button from "react-bootstrap/Button";
+import paperPlane from "../../contrib/paperPlane.svg"
+import fbIcon from "../../contrib/fbIcon.svg";
+import emailIcon from "../../contrib/emailIcon.svg";
+import linkedInIcon from "../../contrib/linkedInIcon.svg";
 import igIcon from "../../contrib/igIcon.svg";
 
 function ContactComponent(props) {
     return (
         <div>
+            <img src={paperPlane} width="70%" height="70%"/>
             <h1 id="contact">Get Connected</h1>
             <div className="mt-4">
                 <p>We would love to hear from you!</p>
@@ -17,48 +21,52 @@ function ContactComponent(props) {
                     <tr style={{width: '100%'}}>
                         <td style={{width: '50%'}}>
                             <a href="https://www.instagram.com/linehayat_usm" target="_blank">
-                                <i className="fab fa-instagram socialsIcon"></i>
+                                <img className="socialsIcon" src={igIcon}/>
+                                {/*<i className="fab fa-instagram socialsIcon"></i>*/}
                             </a>
                         </td>
                         <td className="socialsText">
                             <a href="https://www.instagram.com/linehayat_usm" target="_blank">
-                                <span>@linehayat_usm</span>
+                                <p>@linehayat_usm</p>
                             </a>
                         </td>
                     </tr>
                     <tr style={{width: '100%'}}>
                         <td style={{width: '50%'}}>
                             <a href="https://www.linkedin.com/company/linehayatusm/" target="_blank">
-                                <i className="fab fa-linkedin socialsIcon"></i>
+                                <img className="socialsIcon" src={linkedInIcon}/>
+                                {/*<i className="fab fa-linkedin socialsIcon"></i>*/}
                             </a>
                         </td>
                         <td className="socialsText">
                             <a href="https://www.linkedin.com/company/linehayatusm/" target="_blank">
-                                <span>/linehayatusm</span>
+                                <p>/linehayatusm</p>
                             </a>
                         </td>
                     </tr>
                     <tr>
                         <td>
                             <a href="https://www.facebook.com/linehayat.usm" target="_blank">
-                                <i className="fab fa-facebook socialsIcon"></i>
+                                <img className="socialsIcon" src={fbIcon}/>
+                                {/*<i className="fab fa-facebook socialsIcon"></i>*/}
                             </a>
                         </td>
                         <td className="socialsText">
                             <a href="https://www.facebook.com/linehayat.usm" target="_blank">
-                                <span>/linehayat.usm</span>
+                                <p>/linehayat.usm</p>
                             </a>
                         </td>
                     </tr>
                     <tr>
                         <td>
                             <a href="mailto:linehayat@usm.my" target="_blank">
-                                <i className="far fa-envelope socialsIcon"></i>
+                                <img className="socialsIcon" src={emailIcon}/>
+                                {/*<i className="far fa-envelope socialsIcon"></i>*/}
                             </a>
                         </td>
                         <td className="socialsText">
                             <a href="mailto:linehayat@usm.my" target="_blank">
-                                <span>linehayat@usm.my</span>
+                                <p>linehayat@usm.my</p>
                             </a>
                         </td>
                     </tr>

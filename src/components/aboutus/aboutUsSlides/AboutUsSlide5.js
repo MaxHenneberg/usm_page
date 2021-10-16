@@ -23,9 +23,9 @@ function AboutUsSlide3(props) {
                             <h2>What To Expect:</h2>
                             <div style={{marginTop: '5%'}}>
                                 <p>You are ensured that:</p>
-                                <p>We <span className="slide5Highlight">don’t judge</span></p>
-                                <p>We <span className="slide5Highlight">won’t tel l you what to do</span></p>
-                                <p>Everything is <span className="slide5Highlight">confidential and anonymous.</span></p>
+                                <p>We <span className="highlight">don’t judge</span></p>
+                                <p>We <span className="highlight">won’t tel l you what to do</span></p>
+                                <p>Everything is <span className="highlight">confidential and anonymous.</span></p>
                             </div>
                         </div>
                     </div>

@@ -15,6 +15,10 @@
     font-size: 30px !important;
 }
 
+.homeButtonIcon {
+    margin-right: 10px;
+}
+
 @media (max-width: 700px) {
     .carousel {
         width: 90vw;
@@ -38,12 +42,12 @@
 
 .carousel-indicators li { visibility: hidden; }
 
-.carousel-control-next {visibility: hidden;}
-.carousel-control-prev {visibility: hidden;}
+/*.carousel-control-next {visibility: hidden;}*/
+/*.carousel-control-prev {visibility: hidden;}*/
 
 @media (min-width: 700px) {
     .carousel {
-        width: 60vw;
+        width: 65vw;
     }
 
     .secondItem {
@@ -63,6 +67,8 @@
 .carouselContainer {
     display: flex;
     justify-content: center;
+    width: 85vw;
+    margin: 0 auto 0 auto;
 }
 
 .carouselItem {
@@ -70,7 +76,8 @@
 }
 
 .firstItem {
-    margin-top: 0.5em;
+    width: 90%;
+    margin: 0.5em auto 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -87,9 +94,9 @@
 }
 
 .secondItemImage {
-    border-radius: 5em;
-    width: 10em;
-    height: 10em;
+    border-radius: 7.5em;
+    width: 15em;
+    height: 15em;
 }
 
 .homeButtonContainer {
@@ -99,7 +106,7 @@
 }
 
 .buttonHome{
-    height: 3em;
+    height: fit-content;
     width: 15em;
     border-radius: 1.5em;
     font-size: 1.1em;

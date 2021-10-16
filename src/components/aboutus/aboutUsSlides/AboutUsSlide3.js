@@ -25,8 +25,6 @@ function AboutUsSlide3(props) {
                                 <p>Line Hayat is not a counselling or a professional mental health service.</p>
                                 <p>We are not associated with any mental health professionals such as psychologists,
                                     psychiatrists, counsel lors, therapists, or social workers.</p>
-                                <p>We also understand the need to maintain privacy when it comes to talking about
-                                    problems.</p>
                                 <p>We are volunteers that provide only emotional support.</p>
                                 <p>Users should always seek professional help if possible.</p>
                             </div>

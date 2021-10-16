@@ -15,6 +15,9 @@ import carousel4 from "../../contrib/homeCarousel/carousel4.svg"
 import carousel5 from "../../contrib/homeCarousel/carousel5.svg"
 import carousel6 from "../../contrib/homeCarousel/carousel6.svg"
 
+import callIcon from "../../contrib/callIcon.svg";
+import chatIcon from "../../contrib/chatIcon.svg";
+
 function HomeCarouselComponent(props) {
     const languageContext = useContext(LanguageContext);
     return (
@@ -23,7 +26,8 @@ function HomeCarouselComponent(props) {
                 <Carousel className="carousel" controls="false" indicators="false">
                     <Carousel.Item className="carouselItem">
                         <div className="firstItem">
-                            <h4 className="mb-5 carouselHeadline">LineHayat Is Your Friendly And Private Platform To Lend You An Ear.</h4>
+                            <h4 className="mb-5 carouselHeadline">LineHayat Is Your Friendly And Private Platform To
+                                Lend You An Ear.</h4>
                             <p>This platform, based in Universiti Sains Malaysia (USM), offers peer support
                                 that is fully run by students for students (free of charge).</p>
                             <p>LineHayat cares about all university students' well-being and continues to
@@ -32,15 +36,18 @@ function HomeCarouselComponent(props) {
                             <p>With LineHayat, your privacy is protected. You can express yourself freely and
                                 anonymously via live texting or phone call.</p>
                             <p>We are always here to listen!</p>
-                            <p>#YouShareWeCare</p>
-                            <p className="bold" style={{color: '#5B4C43', fontSize: '1.4em'}}>Operation hours to be confirmed</p>
+                            <p style={{color:'#5B4C43'}}>#YouShareWeCare</p>
+                            <p className="highlight">Operation hours to be
+                                confirmed</p>
                         </div>
                     </Carousel.Item>
                     <Carousel.Item className="carouselItem">
                         <div className="secondItemContainer">
                             <Container fluid style={{height: '100%'}}>
                                 <Row>
-                                    <Col sm={12} xs={12} md={12} lg={12}><h4 className="berkshire-font mb-5 carouselHeadline">LineHayat Anonymous Chat Service - How it
+                                    <Col sm={12} xs={12} md={12} lg={12}><h4
+                                        className="berkshire-font mb-5 carouselHeadline">LineHayat Anonymous Chat
+                                        Service - How it
                                         Works?</h4></Col>
                                 </Row>
                                 <Row>
@@ -50,7 +57,8 @@ function HomeCarouselComponent(props) {
                                     </Col>
                                     <Col sm={12} xs={12} md={12} lg={4}>
                                         <Image src={carousel2} className="secondItemImage"/>
-                                        <p>Wait for your turn, you will be connected to a Listening Volunteer shortly.</p>
+                                        <p>Wait for your turn, you will be connected to a Listening Volunteer
+                                            shortly.</p>
                                     </Col>
                                     <Col sm={12} xs={12} md={12} lg={4}>
                                         <Image src={carousel3} className="secondItemImage"/>
@@ -64,7 +72,9 @@ function HomeCarouselComponent(props) {
                         <div className="secondItemContainer">
                             <Container fluid style={{height: '100%'}}>
                                 <Row>
-                                    <Col sm={12} xs={12} md={12} lg={12}><h4 className="berkshire-font mb-5 carouselHeadline">LineHayat Anonymous Call Service - How it
+                                    <Col sm={12} xs={12} md={12} lg={12}><h4
+                                        className="berkshire-font mb-5 carouselHeadline">LineHayat Anonymous Call
+                                        Service - How it
                                         Works?</h4></Col>
                                 </Row>
                                 <Row>
@@ -91,11 +101,16 @@ function HomeCarouselComponent(props) {
             </div>
             <Container style={{height: '100%', width: 'fit-content'}}>
                 <Row style={{width: 'fit-content', marginRight: '0'}}>
-                    <Col sm={12} xs={12} md={12} lg={6}><Button variant="primary" href="#/help"
-                                                                className="buttonHome">
-                        <i className="fas fa-comments"></i>Live Chat</Button></Col>
-                    <Col sm={12} xs={12} md={12} lg={6}><Button variant="secondary" className="buttonHome"><i
-                        className="fas fa-phone-alt"></i> Call Us</Button></Col>
+                    <Col sm={12} xs={12} md={12} lg={6}>
+                        <Button variant="primary" href="#/help" className="buttonHome">
+                            <img src={chatIcon} className="homeButtonIcon"/>Live Chat
+                        </Button>
+                    </Col>
+                    <Col sm={12} xs={12} md={12} lg={6}>
+                        <Button variant="secondary" className="buttonHome">
+                            <img src={callIcon} className="homeButtonIcon"/> Call Us
+                        </Button>
+                    </Col>
                 </Row>
             </Container>
         </div>

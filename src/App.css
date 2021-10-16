@@ -1,189 +1,241 @@
 .App {
-  text-align: center;
-  width: 100%;
-  position: relative;
-  min-height: 100vh !important;
-  background-color: #F3F3F3;
-  display: block;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    min-height: 100vh !important;
+    background-color: #F3F3F3;
+    display: block;
 
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
 
-p{
-  color: #846859;
+.btn {
+    text-shadow: 0px 3px 6px #00000029;
+    font-size: 15px;
+    text-shadow: #5b4c43 0px 0px 1px;
+}
 
-  font: normal normal bold 30px/34px printclearly;
-  letter-spacing: 2.4px;
+body {
+    overflow-x: hidden;
+}
+
+p {
+    color: #846859;
+
+    font: normal normal bold 30px/34px printclearly;
+    letter-spacing: 2.4px;
 }
 
 .berkshire-font {
-  font-family: berkshireswash, sans-serif !important;
+    font-family: berkshireswash, sans-serif !important;
 }
 
 .crimson-font {
-  font-family: crimsonfont, sans-serif !important;
+    font-family: crimsonfont, sans-serif !important;
 }
 
-h1{
-  color: #5b4c43 !important;
-  font-size: 90px !important;
-  font-family: berkshireswash, sans-serif;
+@media (max-width: 768px) {
+    h1 {
+        font-size: 60px !important;
+    }
+
+    h2 {
+        font-size: 40px !important;
+    }
+
+    h4 {
+        font-size: 20px !important;
+    }
 }
 
-h2{
-  color: #5b4c43 !important;
-  font-size: 50px !important;
-  font-family: crimsonfont, sans-serif;
+@media (min-width: 769px) {
+    h1 {
+        font-size: 90px !important;
+    }
+
+    h2 {
+        font-size: 50px !important;
+    }
+
+    h4 {
+        font-size: 34px !important;
+    }
+}
+
+h1 {
+    color: #5b4c43 !important;
+    font-family: berkshireswash, sans-serif;
+    text-transform: none !important;
+}
+
+h2 {
+    color: #5b4c43 !important;
+    font-family: crimsonfont, sans-serif;
+    text-transform: none !important;
 }
 
 h3 {
-  color: #5b4c43 !important;
+    color: #5b4c43 !important;
+    text-transform: none !important;
 }
 
-h4{
-  color: #5B4C43 !important;
-  font-size: 34px !important;
-  font-family: crimsonfont, sans-serif;
+h4 {
+    color: #5B4C43 !important;
+    font-family: crimsonfont, sans-serif;
+    text-transform: none !important;
 }
 
-.content{
-  display: inline-block;
+.highlight {
+    font-weight: bold;
+    color: #5b4c43;
+    text-shadow: #5b4c43 0px 0px 1px;
+    -webkit-font-smoothing: antialiased;
+}
 
-  width: 100%;
-  min-height: 100% !important;
+.content {
+    display: inline-block;
 
-  padding-top: 70px;
+    width: 100%;
+    min-height: 100% !important;
+
+    padding-top: 70px;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
 
-.horizontalCenter{
-  margin-left: auto;
-  margin-right: auto;
+.horizontalCenter {
+    margin-left: auto;
+    margin-right: auto;
 
-  width: fit-content;
+    width: fit-content;
 }
 
-.hover{
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  float: left;
+.hover {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    float: left;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 .vertical-center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(50%);
-  transform: translateY(50%);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);
 }
 
-@media (min-width: 768px){
-  .w-md-50{
-    width: 50% !important;
-  }
-  .w-md-75{
-    width: 75% !important;
-  }
-  .w-md-25{
-    width: 25% !important;
-  }
-}
+@media (min-width: 768px) {
+    .w-md-50 {
+        width: 50% !important;
+    }
 
-@media (max-width: 768px) {
-  .w-smd-50{
-    width: 50% !important;
-  }
-  .w-smd-75{
-    width: 75% !important;
-  }
-  .w-smd-25{
-    width: 25% !important;
-  }
+    .w-md-75 {
+        width: 75% !important;
+    }
 
-  .w-smd-100{
-    width: 100%;
-  }
+    .w-md-25 {
+        width: 25% !important;
+    }
 }
 
 @media (max-width: 768px) {
-  .float-smd-left{
-    float: left !important;
-  }
+    .w-smd-50 {
+        width: 50% !important;
+    }
+
+    .w-smd-75 {
+        width: 75% !important;
+    }
+
+    .w-smd-25 {
+        width: 25% !important;
+    }
+
+    .w-smd-100 {
+        width: 100%;
+    }
 }
 
-.w-fit-content{
-  width: fit-content;
+@media (max-width: 768px) {
+    .float-smd-left {
+        float: left !important;
+    }
+}
+
+.w-fit-content {
+    width: fit-content;
 }
 
 .displayFlexRow {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .displayFlexColumn {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .justifyContentBetween {
-  justify-content: space-between;
+    justify-content: space-between;
 }
 
 .justifyContentCenter {
-  justify-content: center;
+    justify-content: center;
 }
 
-.bold{
-  font-weight: bolder;
-  font-size: 1.1em;
+.bold {
+    font-weight: bolder;
+    font-size: 1.1em;
 }
 
 @font-face {
-  font-family: 'berkshireswash';
-  src: url('./contrib/font/berkshireswash-regular.ttf') format('truetype');
+    font-family: 'berkshireswash';
+    src: url('./contrib/font/berkshireswash-regular.ttf') format('truetype');
 }
+
 @font-face {
-  font-family: 'printclearly';
-  src: url('./contrib/font/print_clearly_bold_tt.ttf') format('truetype');
+    font-family: 'printclearly';
+    src: url('./contrib/font/print_clearly_bold_tt.ttf') format('truetype');
 }
+
 @font-face {
-  font-family: 'crimsonfont';
-  src: url('./contrib/font/Crimson-Bold.otf') format('opentype');
+    font-family: 'crimsonfont';
+    src: url('./contrib/font/Crimson-Bold.otf') format('opentype');
 }

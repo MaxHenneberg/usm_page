@@ -2,9 +2,8 @@ import React, {useContext, useState} from "react";
 import "flag-icon-css/css/flag-icon.css"
 import "./FooterComponent.css"
 import {LanguageContext} from "../../App";
-import usmLogo from "../../contrib/usmLogo.png";
-import Image from "react-bootstrap/Image";
 import logo from "../../contrib/lineHayatLogo.png";
+import usmFooter from "../../contrib/footerUsm.svg";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
@@ -22,11 +21,16 @@ function FooterComponent(props) {
                     </div>
                 </Col>
                 <Col xs={12} sm={12} md={6} lg={6}>
-                    <div>
+                    <div class="d-flex justify-content-center">
+                        <img
+                            src={usmFooter}
+                            width="70%"
+                            height="70%"
+                        />
                         <img
                             src={logo}
-                            width="100"
-                            height="100"
+                            width="15%"
+                            height="15%"
                         />
                     </div>
                 </Col>
@@ -34,10 +38,10 @@ function FooterComponent(props) {
                     <div>
                         <h4>E-mail:</h4>
                         <a href="mailto:linehayat@usm.my" target="_blank">
-                            <p>linehayat@usm.my</p>
+                            <p style={{fontSize: "34px"}}>linehayat@usm.my</p>
                         </a>
                         <h4>Last Updated:</h4>
-                        <p>21/08/2021</p>
+                        <p style={{fontSize: "34px"}}>21/08/2021</p>
                     </div>
                 </Col>
             </Row>
