@@ -28,13 +28,9 @@ function HomeCarouselComponent(props) {
                         <div className="firstItem">
                             <h4 className="mb-5 carouselHeadline">LineHayat Is Your Friendly And Private Platform To
                                 Lend You An Ear.</h4>
-                            <p>This platform, based in Universiti Sains Malaysia (USM), offers peer support
-                                that is fully run by students for students (free of charge).</p>
-                            <p>LineHayat cares about all university students' well-being and continues to
-                                make every effort to provide emotional support for all students throughout
-                                these challenging days.</p>
-                            <p>With LineHayat, your privacy is protected. You can express yourself freely and
-                                anonymously via live texting or phone call.</p>
+                            <p>This platform, based in Universiti Sains Malaysia (USM), offers peer support that is fully run by students for students, free of charge.</p>
+                            <p>LineHayat cares about all university students' well-being and continues to make every effort to provide emotional support for all students throughout these challenging days.</p>
+                            <p>With LineHayat, your privacy is protected. You can express yourself freely and anonymously to our Listening Volunteers via Call or Live Chat on our website.</p>
                             <p>We are always here to listen!</p>
                             <p style={{color:'#5B4C43'}}>#YouShareWeCare</p>
                             <p className="highlight">Operation hours to be
@@ -107,7 +103,7 @@ function HomeCarouselComponent(props) {
                         </Button>
                     </Col>
                     <Col sm={12} xs={12} md={12} lg={6}>
-                        <Button variant="secondary" className="buttonHome">
+                        <Button variant="secondary" className="buttonHome" disabled="true" title="Call Service is not avaiable yet">
                             <img src={callIcon} className="homeButtonIcon"/> Call Us
                         </Button>
                     </Col>

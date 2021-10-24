@@ -21,7 +21,7 @@ function AboutUsSlide3(props) {
                     <div className="slide2Text">
                         <div>
                             <h2>What To Expect:</h2>
-                            <div style={{marginTop: '5%'}}>
+                            <div style={{marginTop: '5%', textAlign: 'center'}}>
                                 <p>You are ensured that:</p>
                                 <p>We <span className="highlight">don’t judge</span></p>
                                 <p>We <span className="highlight">won’t tel l you what to do</span></p>

@@ -15,7 +15,7 @@ function FooterComponent(props) {
             <Row>
                 <Col xs={12} sm={12} md={3} lg={3}>
                     <div className="ml-md-5">
-                        <h4>LineHayat,</h4>
+                        <h4 className="mb-5">LineHayat,</h4>
                         <p>Universiti Sains Malaysia, 11800,</p>
                         <p>Penang, Malaysia</p>
                     </div>
@@ -36,11 +36,11 @@ function FooterComponent(props) {
                 </Col>
                 <Col xs={12} sm={12} md={3} lg={3}>
                     <div>
-                        <h4>E-mail:</h4>
+                        <h4 className="mb-5">E-mail:</h4>
                         <a href="mailto:linehayat@usm.my" target="_blank">
-                            <p style={{fontSize: "34px"}}>linehayat@usm.my</p>
+                            <p style={{fontSize: "34px"}} className="mb-5">linehayat@usm.my</p>
                         </a>
-                        <h4>Last Updated:</h4>
+                        <h4 className="mb-5">Last Updated:</h4>
                         <p style={{fontSize: "34px"}}>21/08/2021</p>
                     </div>
                 </Col>
