@@ -9,6 +9,14 @@
   background-color: #ccdfdf !important;
 }
 
+.nav-title{
+  font-size: 19px !important;
+}
+
+.nav-title>a{
+  font-size: 19px !important;
+}
+
 .dropdown-item{
   font-size: 15px;
   text-transform: uppercase;

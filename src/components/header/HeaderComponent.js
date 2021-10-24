@@ -30,25 +30,27 @@ function HeaderComponent(props) {
                 <NavbarToggle aria-controls="basic-navbar-nav"/>
                 <NavbarCollapse id="basic-navbar-nav" className="justify-content-between">
                   <Nav className="mr-auto" onSelect={() => setExpanded(!expanded)}>
-                    <NavDropdown title={languageContext.content.header.whoWeAre} id="basic-nav-dropdown">
+                    <NavDropdown className="nav-title" title={languageContext.content.header.whoWeAre} id="basic-nav-dropdown">
                       <NavDropdown.Item href='/#aboutus'>About us</NavDropdown.Item>
                       <NavDropdown.Item href="/#team">{languageContext.content.header.team}</NavDropdown.Item>
                       <NavDropdown.Item href="/#team">{languageContext.content.header.hebatAgenda}</NavDropdown.Item>
                     </NavDropdown>
-                    <NavDropdown title={languageContext.content.header.helped} id="basic-nav-dropdown">
+                    <NavDropdown className="nav-title" title={languageContext.content.header.helped} id="basic-nav-dropdown">
                       <NavDropdown.Item href="#/help" >{languageContext.content.header.chat}</NavDropdown.Item>
                       <NavDropdown.Item href="#/help" >{languageContext.content.header.call}</NavDropdown.Item>
                       <NavDropdown.Item href="#/privacy" >{languageContext.content.header.privacy}</NavDropdown.Item>
                     </NavDropdown>
 
-                    <NavLink href='#/volunteer' target="_blank">{languageContext.content.header.volunteer}</NavLink>
-                    <NavLink href="#/action/3.2">{languageContext.content.header.support}</NavLink>
-                    <NavLink href="#/resources">{languageContext.content.header.resources}</NavLink>
-                    <NavLink href="/#faq">FAQ</NavLink>
-                    <NavDropdown title="Our Contacts" id="basic-nav-dropdown">
+                    <NavLink className="nav-title" href='#/volunteer' target="_blank">{languageContext.content.header.volunteer}</NavLink>
+                    <NavLink className="nav-title" href="#/action/3.2">{languageContext.content.header.support}</NavLink>
+                    <NavLink className="nav-title" href="#/resources">{languageContext.content.header.resources}</NavLink>
+                    <NavLink className="nav-title" href="/#faq">FAQ</NavLink>
+
+                    <NavDropdown className="nav-title" title="Our Contacts" id="basic-nav-dropdown">
                       <NavDropdown.Item href='/#contact'>{languageContext.content.header.getConnected}</NavDropdown.Item>
                       <NavDropdown.Item href="https://docs.google.com/forms/d/e/1FAIpQLSdyPtOfIKj6rVI0eUY9l4j5_ZYR6APHTrT5uLpD7e6zHLYQIQ/viewform?usp=sf_link" target="_blank">{languageContext.content.header.feedback}</NavDropdown.Item>
                     </NavDropdown>
+
                   </Nav>
                   <div className="horizontalCenter-sm">
                     <Form inline>
