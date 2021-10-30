@@ -19,7 +19,7 @@ function FAQComponent(props) {
   }
   return (
       <div className="mt-5 mb-3">
-        <h1 id="faq">Frequently Asked Questions</h1>
+        <h2 id="faq">Frequently Asked Questions</h2>
         <div className="horizontalCenter">
           <div className="questionSection">
             <div className="mt-5">
@@ -39,7 +39,7 @@ function FAQComponent(props) {
               <FAQSection questions={faq.questions.volunteer}/>
             </div>
             <div className="mt-5">
-              <p>Anything else to ask us? Do contact us <a href="" target="_blank"><span className="highlight">here</span></a> .</p>
+              <p>Anything else to ask us? Do contact us <a href="" target="_blank"><span className="highlight">here</span></a>.</p>
             </div>
           </div>
         </div>
