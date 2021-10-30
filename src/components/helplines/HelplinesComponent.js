@@ -16,7 +16,7 @@ function HelpLinesComponent(props) {
                 if(i%2===0) {
                     return <Card className="helplines-card">
                         <Card.Body className="helplines-card-body">
-                            <Card.Title>{helpline.title}</Card.Title>
+                            <Card.Title className="helplines-card-title">{helpline.title}</Card.Title>
                             <Card.Text>
                                 <div dangerouslySetInnerHTML={{__html: helpline.body}}/>
                             </Card.Text>
@@ -25,7 +25,7 @@ function HelpLinesComponent(props) {
                 }else {
                     return <Card className="helplines-card helplines-card-odd">
                         <Card.Body className="helplines-card-body">
-                            <Card.Title>{helpline.title}</Card.Title>
+                            <Card.Title className="helplines-card-title">{helpline.title}</Card.Title>
                             <Card.Text>
                                 <div dangerouslySetInnerHTML={{__html: helpline.body}}/>
                             </Card.Text>

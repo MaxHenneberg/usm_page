@@ -16,10 +16,10 @@ function ResourceView(props) {
     return (
         <div className="bottomContainer">
             <Jumbotron style={{paddingBottom: '0'}} className="topContainer">
-                <Container style={{height: '100%', width: 'fit-content'}}>
-                    <Row style={{width: 'fit-content', marginRight: '0'}}>
+                <Container fluid style={{height: '100%', width: '90%'}}>
+                    <Row style={{width: '100%', marginRight: '0'}}>
                         <Col sm={12} xs={12} md={12} lg={6} className="displayFlexColumn justifyContentCenter">
-                            <h2> Resources</h2>
+                            <h1> Resources</h1>
                             <p>These are some useful resources (the latest news articles, LineHayat’s infographics, and other free mental health services in Malaysia),
                                 which would help gain a better understanding of mental health and keep you updated with the services available in Malaysia.</p>
                         </Col>
@@ -29,9 +29,9 @@ function ResourceView(props) {
                     </Row>
                 </Container>
                 <div className="displayFlexRow justifyContentBetween jumbotronButtonContainer">
-                    <Button variant="light" className="jumbotronButton" onClick={() => setSelectedPage("helplines")}>Helplines</Button>
-                    <Button variant="light" className="jumbotronButton" onClick={() => setSelectedPage("news")}>News</Button>
-                    <Button variant="light" className="jumbotronButton" onClick={() => setSelectedPage("mediaResource")}>Media Resources</Button>
+                    <Button variant="light" className={(selectedPage==="helplines" && "selectedButton jumbotronButton berkshire-font") || (selectedPage!=="helplines" && "jumbotronButton berkshire-font")} onClick={() => setSelectedPage("helplines")}>Helplines</Button>
+                    <Button variant="light" className={(selectedPage==="news" && "selectedButton jumbotronButton berkshire-font") || (selectedPage!=="news" && "jumbotronButton berkshire-font")} onClick={() => setSelectedPage("news")}>News</Button>
+                    <Button variant="light" className={(selectedPage==="mediaResource" && "selectedButton jumbotronButton berkshire-font") || (selectedPage!=="mediaResource" && "jumbotronButton berkshire-font")} onClick={() => setSelectedPage("mediaResource")}>Media Resources</Button>
                 </div>
             </Jumbotron>
             <div>

@@ -1,6 +1,6 @@
 .resourceImage {
-    width: 30em;
-    height: 30em;
+    width: 80%;
+    height: 100%;
 }
 
 .jumbotronButtonContainer {
@@ -8,10 +8,18 @@
 }
 
 .jumbotronButton {
-    border-top-left-radius: 20%;
-    border-top-right-radius: 20%;
+    width: 20%;
+    min-width: fit-content;
+    text-transform: none;
+    color: #5b4c43 !important;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     background-color: #F6D1C8;
     margin: 0 !important;
+}
+
+.selectedButton {
+    background-color: #ececec !important;
 }
 
 @media (min-width: 700px) {
