@@ -18,13 +18,13 @@ function AboutUsSlide3(props) {
                 </Col>
                 }
                 <Col xs={12} sm={12} md={6} lg={6}>
-                    <div className="slide2Text">
+                    <div className="slide2Text textRight">
                         <div>
                             <h2>What To Expect:</h2>
                             <div style={{marginTop: '5%', textAlign: 'center'}}>
                                 <p>You are ensured that:</p>
                                 <p>We <span className="highlight">don’t judge</span></p>
-                                <p>We <span className="highlight">won’t tel l you what to do</span></p>
+                                <p>We <span className="highlight">won’t tell you what to do</span></p>
                                 <p>Everything is <span className="highlight">confidential and anonymous.</span></p>
                             </div>
                         </div>

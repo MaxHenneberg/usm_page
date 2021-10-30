@@ -18,7 +18,7 @@ function AboutUsSlide2(props) {
                 </Col>
                 }
                 <Col xs={12} sm={12} md={6} lg={6}>
-                    <div className="slide2Text">
+                    <div className="slide2Text textLeft">
                         <div>
                             <h2>What We Do:</h2>
                             <div style={{marginTop: '5%'}}>

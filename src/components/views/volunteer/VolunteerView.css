@@ -81,10 +81,19 @@ h2{
     }
 
     .slide2Text{
+
         display: flex;
         flex-direction: column;
         justify-content: center;
         height: fit-content;
+    }
+
+    .textLeft {
+        margin-left: 5vw;
+    }
+
+    .textRight {
+        margin-right: 5vw;
     }
 }
 
