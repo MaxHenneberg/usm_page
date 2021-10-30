@@ -11,7 +11,7 @@ import "./HeaderComponent.css"
 import {LanguageContext} from "../../App";
 import Dropdown from "react-bootstrap/Dropdown";
 import Nav from "react-bootstrap/Nav";
-import logo from "../../contrib/lineHayatLogo.png";
+import logo from "../../contrib/lineHayatLogo.svg";
 
 function HeaderComponent(props) {
   const languageContext = useContext(LanguageContext);

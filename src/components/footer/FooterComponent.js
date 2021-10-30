@@ -2,7 +2,7 @@ import React, {useContext, useState} from "react";
 import "flag-icon-css/css/flag-icon.css"
 import "./FooterComponent.css"
 import {LanguageContext} from "../../App";
-import logo from "../../contrib/lineHayatLogo.png";
+import logo from "../../contrib/lineHayatLogo.svg";
 import usmFooter from "../../contrib/footerUsm.svg";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -27,10 +27,8 @@ function FooterComponent(props) {
                             width="70%"
                             height="70%"
                         />
-                        <img
+                        <img className="footer-lh-logo"
                             src={logo}
-                            width="15%"
-                            height="15%"
                         />
                     </div>
                 </Col>

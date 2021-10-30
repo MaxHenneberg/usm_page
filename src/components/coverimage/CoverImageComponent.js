@@ -2,7 +2,7 @@ import React, {useContext} from "react";
 import {LanguageContext} from "../../App";
 import Image from "react-bootstrap/Image";
 import usmMain from "../../contrib/usmMain.png";
-import lineHayatLogo from "../../contrib/lineHayatLogo.png";
+import lineHayatLogo from "../../contrib/lineHayatLogo.svg";
 import Button from "react-bootstrap/Button";
 import "./CoverImageComponent.css";
 import {Link} from "react-router-dom";

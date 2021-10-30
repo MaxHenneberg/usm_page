@@ -2,7 +2,7 @@ import React, {useContext} from "react";
 import {LanguageContext} from "../../App";
 import faqJson from "../../contrib/content/faq";
 import image from "../../contrib/Volunteer Page 1.png";
-import logo from "../../contrib/lineHayatLogo.png"
+import logo from "../../contrib/lineHayatLogo.svg"
 import css from "../views/volunteer/VolunteerView.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
