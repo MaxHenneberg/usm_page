@@ -26,7 +26,7 @@ function HomeCarouselComponent(props) {
                 <Carousel className="carousel" controls="false" indicators="false">
                     <Carousel.Item className="carouselItem">
                         <div className="firstItem">
-                            <h4 className="mb-5 carouselHeadline">LineHayat Is Your Friendly And Private Platform To
+                            <h4 className="mb-lg-5 crimson-font">LineHayat Is Your Friendly And Private Platform To
                                 Lend You An Ear.</h4>
                             <p>This platform, based in Universiti Sains Malaysia (USM), offers peer support that is fully run by students for students, free of charge.</p>
                             <p>LineHayat cares about all university students' well-being and continues to make every effort to provide emotional support for all students throughout these challenging days.</p>
@@ -41,10 +41,11 @@ function HomeCarouselComponent(props) {
                         <div className="secondItemContainer">
                             <Container fluid style={{height: '100%'}}>
                                 <Row>
-                                    <Col sm={12} xs={12} md={12} lg={12}><h4
-                                        className="berkshire-font mb-5 carouselHeadline">LineHayat Anonymous Chat
-                                        Service - How it
-                                        Works?</h4></Col>
+                                    <Col sm={12} xs={12} md={12} lg={12}>
+                                        <h4
+                                            className="berkshire-font mb-5">LineHayat Anonymous Chat
+                                            Service - How it
+                                            Works?</h4></Col>
                                 </Row>
                                 <Row>
                                     <Col sm={12} xs={12} md={12} lg={4}>
@@ -69,7 +70,7 @@ function HomeCarouselComponent(props) {
                             <Container fluid style={{height: '100%'}}>
                                 <Row>
                                     <Col sm={12} xs={12} md={12} lg={12}><h4
-                                        className="berkshire-font mb-5 carouselHeadline">LineHayat Anonymous Call
+                                        className="berkshire-font mb-5">LineHayat Anonymous Call
                                         Service - How it
                                         Works?</h4></Col>
                                 </Row>

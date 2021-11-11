@@ -30,15 +30,15 @@ function AboutUsSlide2(props) {
                                     problems.</p>
                                 <p>Therefore, we are established on these three main ideas:</p>
                                 <ul style={{width: 'fit-content', textAlign: 'center'}}
-                                    className="whoWeAreList crimson-font list-font">
+                                    className="whoWeAreList crimson-font highlight">
                                     <li style={{width: 'fit-content'}}>
-                                        Anonymous peer support
+                                        <p>Anonymous peer support</p>
                                     </li>
                                     <li style={{width: 'fit-content'}}>
-                                        Trained volunteerism
+                                        <p>Trained volunteerism</p>
                                     </li>
                                     <li style={{width: 'fit-content'}}>
-                                        Peer capacity building
+                                        <p>Peer capacity building</p>
                                     </li>
                                 </ul>
                             </div>

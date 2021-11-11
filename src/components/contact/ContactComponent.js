@@ -9,7 +9,7 @@ import igIcon from "../../contrib/igIcon.svg";
 
 function ContactComponent(props) {
     return (
-        <div>
+        <div class="contactView">
             <img src={paperPlane} width="70%" height="70%"/>
             <h1 id="contact">Get Connected</h1>
             <div className="mt-4">
@@ -25,9 +25,9 @@ function ContactComponent(props) {
                                 {/*<i className="fab fa-instagram socialsIcon"></i>*/}
                             </a>
                         </td>
-                        <td className="socialsText">
+                        <td>
                             <a href="https://www.instagram.com/linehayat_usm" target="_blank">
-                                <p>@linehayat_usm</p>
+                                <p className="socialsText">@linehayat_usm</p>
                             </a>
                         </td>
                     </tr>
@@ -38,9 +38,9 @@ function ContactComponent(props) {
                                 {/*<i className="fab fa-linkedin socialsIcon"></i>*/}
                             </a>
                         </td>
-                        <td className="socialsText">
+                        <td>
                             <a href="https://www.linkedin.com/company/linehayatusm/" target="_blank">
-                                <p>/linehayatusm</p>
+                                <p className="socialsText">/linehayatusm</p>
                             </a>
                         </td>
                     </tr>
@@ -51,9 +51,9 @@ function ContactComponent(props) {
                                 {/*<i className="fab fa-facebook socialsIcon"></i>*/}
                             </a>
                         </td>
-                        <td className="socialsText">
+                        <td>
                             <a href="https://www.facebook.com/linehayat.usm" target="_blank">
-                                <p>/linehayat.usm</p>
+                                <p className="socialsText">/linehayat.usm</p>
                             </a>
                         </td>
                     </tr>
@@ -64,9 +64,9 @@ function ContactComponent(props) {
                                 {/*<i className="far fa-envelope socialsIcon"></i>*/}
                             </a>
                         </td>
-                        <td className="socialsText">
+                        <td>
                             <a href="mailto:linehayat@usm.my" target="_blank">
-                                <p>linehayat@usm.my</p>
+                                <p className="socialsText">linehayat@usm.my</p>
                             </a>
                         </td>
                     </tr>
@@ -75,12 +75,11 @@ function ContactComponent(props) {
             </div>
             <div className="mt-5 pb-4">
                 <h1 id="contact">Feedback to LineHayat </h1>
-                <p>We are delighted to be able to help you in your most challenging time. If you have used our service,</p>
-                <p> it would be wonderful to know your experience to provide better services in the
-                    future.</p>
+                <p>We are delighted to be able to help you in your most challenging time. If you have used our service,
+                    it would be wonderful to know your experience to provide better services in the future.</p>
                 <p>Worry not, as we promise a completely confidential service, your comments would be anonymous.</p>
                 <div className="mt-3">
-                    <a href='https://docs.google.com/forms/d/e/1FAIpQLSdyPtOfIKj6rVI0eUY9l4j5_ZYR6APHTrT5uLpD7e6zHLYQIQ/viewform?usp=sf_link'
+                    <a href='https://docs.google.com/forms/d/1sS2esF4vrfVe9bhoo0TBOn4rrPTSpCGnwfbSiKOZINY/viewform?edit_requested=true'
                        target="_blank">
                         <Button variant="secondary" className="buttonHome">Feedback Form</Button>
                     </a>

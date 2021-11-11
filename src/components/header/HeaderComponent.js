@@ -48,7 +48,7 @@ function HeaderComponent(props) {
 
                     <NavDropdown className="nav-title" title="Our Contacts" id="basic-nav-dropdown">
                       <NavDropdown.Item href='/#contact'>{languageContext.content.header.getConnected}</NavDropdown.Item>
-                      <NavDropdown.Item href="https://docs.google.com/forms/d/e/1FAIpQLSdyPtOfIKj6rVI0eUY9l4j5_ZYR6APHTrT5uLpD7e6zHLYQIQ/viewform?usp=sf_link" target="_blank">{languageContext.content.header.feedback}</NavDropdown.Item>
+                      <NavDropdown.Item href="https://docs.google.com/forms/d/1sS2esF4vrfVe9bhoo0TBOn4rrPTSpCGnwfbSiKOZINY/viewform?edit_requested=true" target="_blank">{languageContext.content.header.feedback}</NavDropdown.Item>
                     </NavDropdown>
 
                   </Nav>

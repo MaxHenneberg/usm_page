@@ -60,6 +60,10 @@
   .navbar{
     padding: 0.5rem 0.5rem !important;
   }
+
+  .navbar-toggler {
+    background-color: #F6ECD2 !important;
+  }
 }
 
 

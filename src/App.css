@@ -21,9 +21,6 @@ body {
 
 p {
     color: #846859;
-
-    font: normal normal bold 30px/34px printclearly;
-    letter-spacing: 2.4px;
 }
 
 .berkshire-font {
@@ -34,17 +31,25 @@ p {
     font-family: crimsonfont, sans-serif !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
     h1 {
-        font-size: 60px !important;
+        font-size: 30px !important;
+        letter-spacing: 0px !important;
     }
 
     h2 {
-        font-size: 40px !important;
+        font-size: 20px !important;
+        letter-spacing: 0px !important;
     }
 
     h4 {
-        font-size: 20px !important;
+        font-size: 15px !important;
+        letter-spacing: 0px !important;
+    }
+
+    p {
+        font: normal normal bold 18px/21px printclearly;
+        letter-spacing: 1.4px;
     }
 
     .content {
@@ -52,7 +57,7 @@ p {
     }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 701px) {
     h1 {
         font-size: 90px !important;
     }
@@ -63,6 +68,11 @@ p {
 
     h4 {
         font-size: 34px !important;
+    }
+
+    p {
+        font: normal normal bold 30px/34px printclearly;
+        letter-spacing: 2.4px;
     }
 }
 

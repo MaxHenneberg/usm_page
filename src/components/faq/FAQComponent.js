@@ -35,11 +35,11 @@ function FAQComponent(props) {
               <FAQSection questions={faq.questions.volunteer}/>
             </div>
             <div className="mt-5">
-              <h2>Questions by Supporters</h2>
-              <FAQSection questions={faq.questions.volunteer}/>
+              <h2>Questions by LineHayat Community</h2>
+              <FAQSection questions={faq.questions.supporters}/>
             </div>
             <div className="mt-5">
-              <p>Anything else to ask us? Do contact us <a href="" target="_blank"><span className="highlight">here</span></a>.</p>
+              <p>Anything else to ask us? Do contact us <a href="#/contact"><span className="highlight">here</span></a>.</p>
             </div>
           </div>
         </div>

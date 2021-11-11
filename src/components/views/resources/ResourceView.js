@@ -1,13 +1,12 @@
 import "./ResourceView.css";
 import React from "react";
 import Jumbotron from "react-bootstrap/Jumbotron";
-import usmMain from "../../../contrib/usmMain.png";
 import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
-import iContent from "../../../contrib/content/content";
+import topImage from "../../../contrib/resourcesIllustration.svg"
 import HelpLinesComponent from "../../helplines/HelplinesComponent";
 
 function ResourceView(props) {
@@ -24,7 +23,7 @@ function ResourceView(props) {
                                 which would help gain a better understanding of mental health and keep you updated with the services available in Malaysia.</p>
                         </Col>
                         <Col sm={12} xs={12} md={12} lg={6}>
-                            <Image src={usmMain} className="resourceImage"/>
+                            <Image src={topImage} className="resourceImage"/>
                         </Col>
                     </Row>
                 </Container>

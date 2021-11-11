@@ -1,9 +1,5 @@
-.socialsIcon{
-    font-size: 2rem;
-    width: 80px;
-    height: 80px;
-    /*color: black;*/
-    margin-right: 2vw;
+.contactView {
+    margin: 0 auto 0 auto;
 }
 
 .socialsIcon:not(first-child){
@@ -12,4 +8,32 @@
 
 .socialsText{
     text-align: left;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+
+.socialsIcon{
+    margin-right: 2vw;
+}
+
+@media (max-width: 700px) {
+    .contactView {
+        width:80%;
+    }
+
+    .socialsIcon{
+        width: 30px !important;
+        height: 30px !important;
+    }
+}
+
+@media (min-width: 701px) {
+    .contactView {
+        width: 100%;
+    }
+
+    .socialsIcon{
+        width: 80px !important;
+        height: 80px !important;
+    }
 }

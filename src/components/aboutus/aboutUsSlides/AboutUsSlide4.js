@@ -26,21 +26,21 @@ function AboutUsSlide2(props) {
                                     you may be facing right now. We listen.</p>
                                 <p>Feel free to reach us through our call or chat services.</p>
                                 <p>You may want to talk about:</p>
-                                <ul style={{width: 'fit-content'}} className="crimson-font list-font">
+                                <ul style={{width: 'fit-content', textAlign: 'left'}} className="crimson-font highlight">
                                     <li style={{width: 'fit-content'}}>
-                                        Study stress
+                                        <p>Study stress</p>
                                     </li>
                                     <li style={{width: 'fit-content'}}>
-                                        Confusions
+                                        <p>Confusions</p>
                                     </li>
                                     <li style={{width: 'fit-content'}}>
-                                        Feeling lost/alone/empty
+                                        <p>Feeling lost/alone/empty</p>
                                     </li>
                                     <li style={{width: 'fit-content'}}>
-                                        Life challenges
+                                        <p>Life challenges</p>
                                     </li>
                                     <li style={{width: 'fit-content'}}>
-                                        Anything that concerns you
+                                        <p>Anything that concerns you</p>
                                     </li>
                                 </ul>
                                 <h4 style={{fontSize:'35px'}}>#You Share, We Care</h4>
