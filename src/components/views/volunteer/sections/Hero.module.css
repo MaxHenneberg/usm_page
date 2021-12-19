@@ -1,0 +1,31 @@
+.hero {
+    background: #f3f3f3;
+    display: grid;
+    padding: 1rem 1rem 1.5rem;
+    grid-template:
+        'heading'
+        'image'
+        'text';
+}
+
+.hero img {
+    align-self: flex-end;
+    margin-bottom: 1rem;
+    max-height: 18rem;
+    max-width: 100%;
+}
+
+@media (min-width: 768px) {
+    .hero {
+        background: #d1e0e1cc;
+        grid-template:
+            'image heading'
+            'image text' /
+             1fr   1fr;
+        padding: 1rem 5rem 0;
+    }
+
+    .hero img {
+        margin-bottom: unset;
+    }
+}
